@@ -19,7 +19,10 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "User not found" }, { status: 404 });
     }
 
+    console.log("user id from db", user.id);
+
     // Check for existing score with same topic and difficulty
+
     const existingScore = await prisma.score.findFirst({
       where: {
         userId: user.id,
@@ -46,6 +49,7 @@ export async function POST(req: Request) {
     }
 
     // Create new score
+
     const newScore = await prisma.score.create({
       data: {
         score,

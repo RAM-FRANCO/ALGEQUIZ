@@ -21,19 +21,21 @@ export function Leaderboard({
   selectedDifficulty,
 }: LeaderboardProps) {
   return (
-    <div className='space-y-6 bg-white w-2/4 mx-auto rounded-3xl p-6'>
+    <div className='space-y-4 lg:space-y-6 bg-white lg:w-2/4 mx-auto rounded-3xl p-6'>
       <div className='flex items-center justify-center gap-2 mb-5'>
         <Image src={leaderboardIcon} alt='leaderboard' className='w-10 h-10' />
         <div>
-          <h2 className='text-2xl font-bold'>Student&apos;s Ranking</h2>
-          <p className='text-center'>
-            {selectedTopic}({selectedDifficulty})
+          <h2 className='text-xl lg:text-2xl font-bold'>
+            Student&apos;s Ranking
+          </h2>
+          <p className='text-sm md:text-base text-center'>
+            {selectedTopic} ({selectedDifficulty})
           </p>
         </div>
       </div>
       <div className=''>
-        <div className='flex justify-between items-center px-6 py-2 font-bold text-black'>
-          <div className='flex items-center gap-3 font-bold text-lg '>
+        <div className='flex justify-between items-center px-6 lg:py-2 font-bold text-black text-sm lg:text-lg '>
+          <div className='flex items-center gap-3 font-bold '>
             <span className='ml-9'>Name</span>
           </div>
           <span>Score</span>
@@ -42,14 +44,16 @@ export function Leaderboard({
         {leaderboard.map((entry, index) => (
           <div
             key={index}
-            className='flex justify-between items-center px-6 py-2'
+            className='flex justify-between items-center px-6 py-2 '
           >
-            <div className='flex items-center gap-3'>
+            <div className='flex items-center gap-3  '>
               <Image src={crownIcon} alt='crown' className='w-6 h-6' />
-              <span className='text-lg'>{entry.username}</span>
+              <span className='text-sm lg:text-lg'>{entry.username}</span>
             </div>
-            <span className='text-xl font-bold'>{entry.score}</span>
-            <span className='text-xl font-bold'>{entry.timeSpent}s</span>
+            <span className='text-sm lg:text-lg font-bold'>{entry.score}</span>
+            <span className='text-sm lg:text-lg font-bold'>
+              {entry.timeSpent}s
+            </span>
           </div>
         ))}
       </div>

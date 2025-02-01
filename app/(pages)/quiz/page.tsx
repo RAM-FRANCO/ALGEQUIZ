@@ -3,7 +3,6 @@
 
 import React, { useState, useEffect, useRef } from "react";
 import { Container } from "@/app/components/common/Container";
-import { useSession } from "next-auth/react";
 import quizData from "@/public/quiz.json";
 import Link from "next/link";
 import Image from "next/image";
@@ -13,6 +12,8 @@ import { StartQuiz } from "./../../components/quiz/StartQuiz";
 import { QuizContent } from "./../../components/quiz/QuizContent";
 import { Leaderboard } from "./../../components/quiz/Leaderboard";
 import musicIcon from "@/public/audio-icon.png";
+import { signOut } from "next-auth/react";
+import { ResetQuizDialog } from "@/app/components/quiz/ResetQuizDialog";
 
 type Question = {
   question: string;
@@ -27,7 +28,6 @@ type LeaderboardEntry = {
 };
 
 export default function Page() {
-  const { data: session, status } = useSession();
   const [selectedTopic, setSelectedTopic] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState("");
   const [numberOfQuestions, setNumberQuestions] = useState(5);
@@ -44,6 +44,9 @@ export default function Page() {
   const [showCorrectAnswer, setShowCorrectAnswer] = useState(false);
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const [selectedAnswer, setSelectedAnswer] = useState<string>("");
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
+  const [showResetDialog, setShowResetDialog] = useState(false);
 
   // Get unique topics from quiz data
   const topics = [...new Set(quizData.map((item) => item.topic))];
@@ -93,26 +96,23 @@ export default function Page() {
     }
   };
 
-  // Add this to your state declarations at the top
-  const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const handleAnswer = async (selectedAnswer: string) => {
     setSelectedAnswer(selectedAnswer);
     setShowCorrectAnswer(true);
+    setIsTimerPaused(true);
     const correct = selectedAnswer === questions[currentQuestion].answer;
-
-    // Update score and store it in a new variable
     const newScore = correct ? score + 1 : score;
     setScore(newScore);
 
     setTimeout(async () => {
       setShowCorrectAnswer(false);
       setSelectedAnswer("");
+      setIsTimerPaused(false);
       if (currentQuestion + 1 < questions.length) {
         setCurrentQuestion(currentQuestion + 1);
         resetTimer();
       } else {
         setIsSubmitting(true);
-        // Pass the newScore to submitScore
         await submitScore(newScore);
         setIsSubmitting(false);
       }
@@ -171,11 +171,10 @@ export default function Page() {
   useEffect(() => {
     let interval: NodeJS.Timeout;
 
-    if (quizStarted && timer > 0) {
+    if (quizStarted && timer > 0 && !isTimerPaused) {
       interval = setInterval(() => {
         setTimer((prev) => {
           if (prev <= 1) {
-            // Move to next question or end quiz
             if (currentQuestion + 1 < questions.length) {
               setCurrentQuestion(currentQuestion + 1);
               return getTimerByDifficulty();
@@ -191,7 +190,7 @@ export default function Page() {
     }
 
     return () => clearInterval(interval);
-  }, [quizStarted, timer, currentQuestion]);
+  }, [quizStarted, timer, currentQuestion, isTimerPaused]);
 
   useEffect(() => {
     audioRef.current = new Audio("/bg-music.mp3");
@@ -223,10 +222,35 @@ export default function Page() {
     }
   };
 
+  const handleResetQuiz = () => {
+    setShowResetDialog(true);
+  };
+
+  const confirmReset = () => {
+    setSelectedTopic("");
+    setSelectedDifficulty("");
+    setNumberQuestions(5);
+    setQuizStarted(false);
+    setQuestions([]);
+    setScore(0);
+    setTimer(0);
+    setTimeSpent(0);
+
+    setShowLeaderboard(false);
+    setLeaderboard([]);
+    setIsSubmitting(false);
+    setShowCorrectAnswer(false);
+
+    setCurrentQuestion(0);
+    setSelectedAnswer("");
+    setIsMusicPlaying(false);
+    setShowResetDialog(false);
+  };
+
   return (
     <Container className='relative'>
       <button
-        className={`absolute bottom-10 right-10 w-14 rounded-full p-2 h-14 transition-colors ${
+        className={`absolute bottom-10 right-5 md:right-10 w-10 h-10 md:w-14 rounded-full p-2 md:h-14 transition-colors ${
           isMusicPlaying ? "bg-primary" : "bg-white"
         }`}
         onClick={toggleMusic}
@@ -239,20 +263,17 @@ export default function Page() {
           }`}
         />
       </button>
-      <div className='lg:w-3/4 mx-auto px-5 sm:p-8'>
+      {!quizStarted && (
+        <button
+          onClick={() => signOut()}
+          className='absolute top-5 right-5 px-8 py-1 bg-gradient-to-r from-[#CDFFD8] to-[#94B9FF] text-black font-bold rounded-full shadow-lg hover:shadow-xl transition-all'
+        >
+          Logout
+        </button>
+      )}
+      <div className='w-full lg:w-3/4 mx-auto px-5 sm:p-8'>
         {quizStarted ? (
-          <button
-            onClick={() => {
-              setShowLeaderboard(false);
-              setSelectedTopic("");
-              setSelectedDifficulty("");
-              setQuizStarted(false);
-              setScore(0);
-              setCurrentQuestion(0);
-              setQuestions([]);
-              setTimeSpent(0);
-            }}
-          >
+          <button onClick={handleResetQuiz}>
             <Image
               src={backArowIcon}
               alt='back arrow'
@@ -270,12 +291,16 @@ export default function Page() {
         )}
         <div className='flex justify-center items-center w-full'>
           <div className='text-center'>
-            <Image src={logo} alt='logo' className='w-72 md:w-80 mx-auto' />
+            <Image
+              src={logo}
+              alt='logo'
+              className='w-60 sm:w-72 md:w-80 mx-auto'
+            />
           </div>
           {quizStarted && (
-            <div className='bg-primary rounded-full p-4 absolute top-10 right-10 h-24 w-24 flex justify-center items-center flex-col'>
+            <div className='bg-primary rounded-full p-4 text-sm md:text-base absolute top-10 right-5 md:right-10 w-20 md:h-24 h-20 md:w-24 flex justify-center items-center flex-col'>
               <span className='font-medium'>TIME</span>
-              <div>{timer}s</div>
+              <p>{timer}s</p>
             </div>
           )}
         </div>
@@ -307,10 +332,15 @@ export default function Page() {
             isSubmitting={isSubmitting}
             handleAnswer={handleAnswer}
             showCorrectAnswer={showCorrectAnswer}
-            selectedAnswer={selectedAnswer} // Add this prop
+            selectedAnswer={selectedAnswer}
           />
         )}
       </div>
+      <ResetQuizDialog
+        open={showResetDialog}
+        onOpenChange={setShowResetDialog}
+        onConfirm={confirmReset}
+      />
     </Container>
   );
 }
