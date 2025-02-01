@@ -30,7 +30,7 @@ export async function GET(request: Request) {
         },
       },
       orderBy: [{ score: "desc" }, { timeSpent: "asc" }],
-      take: 5, // Limit to top 10 scores
+      take: 5, // Limit to top 5 scores
     });
 
     // Transform the data to match the LeaderboardEntry type

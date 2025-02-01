@@ -14,6 +14,7 @@ import { Leaderboard } from "./../../components/quiz/Leaderboard";
 import musicIcon from "@/public/audio-icon.png";
 import { signOut } from "next-auth/react";
 import { ResetQuizDialog } from "@/app/components/quiz/ResetQuizDialog";
+import { SignoutDialog } from "@/app/components/alert-dialog-signout";
 
 type Question = {
   question: string;
@@ -47,6 +48,8 @@ export default function Page() {
   const [selectedAnswer, setSelectedAnswer] = useState<string>("");
   const [isTimerPaused, setIsTimerPaused] = useState(false);
   const [showResetDialog, setShowResetDialog] = useState(false);
+
+  const [showSignoutDialog, setShowSignoutDialog] = useState(false);
 
   // Get unique topics from quiz data
   const topics = [...new Set(quizData.map((item) => item.topic))];
@@ -247,6 +250,14 @@ export default function Page() {
     setShowResetDialog(false);
   };
 
+  const handleSignOut = () => {
+    setShowSignoutDialog(true);
+  };
+
+  const confirmSignOut = () => {
+    signOut();
+  };
+
   return (
     <Container className='relative'>
       <button
@@ -265,7 +276,7 @@ export default function Page() {
       </button>
       {!quizStarted && (
         <button
-          onClick={() => signOut()}
+          onClick={handleSignOut}
           className='absolute top-5 right-5 px-8 py-1 bg-gradient-to-r from-[#CDFFD8] to-[#94B9FF] text-black font-bold rounded-full shadow-lg hover:shadow-xl transition-all'
         >
           Logout
@@ -340,6 +351,11 @@ export default function Page() {
         open={showResetDialog}
         onOpenChange={setShowResetDialog}
         onConfirm={confirmReset}
+      />
+      <SignoutDialog
+        open={showSignoutDialog}
+        onOpenChange={setShowSignoutDialog}
+        onConfirm={confirmSignOut}
       />
     </Container>
   );
