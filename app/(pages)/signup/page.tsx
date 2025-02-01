@@ -27,6 +27,13 @@ export default function SignupPage() {
       password: formData.get("password"),
     };
 
+    // Add password validation
+    if (typeof data.password === "string" && data.password.length < 6) {
+      setError("Password must be at least 6 characters long");
+      setLoading(false);
+      return;
+    }
+
     try {
       const res = await fetch("/api/signup", {
         method: "POST",
@@ -50,91 +57,93 @@ export default function SignupPage() {
   };
 
   return (
-    <Container className='h-screen flex justify-center items-center'>
-      <div>
-        <Link href='/'>
-          <Image
-            src={backArowIcon}
-            alt='back arrow'
-            className='w-10 sm:w-16 '
-          />
-        </Link>
-        <div className='grid lg:grid-cols-2 xl:w-4/6 mx-auto items-center'>
-          <div>
+    <Container className='h-screen flex flex-col justify-center items-center'>
+      <div className='w-full max-w-md mx-auto sm:p-8 '>
+        <div>
+          <Link href='/'>
             <Image
-              src={Logo}
-              alt='Algequiztic-Logo'
-              className='w-72 md:w-96 mx-auto'
+              src={backArowIcon}
+              alt='back arrow'
+              className='w-10 sm:w-16 '
             />
-          </div>
+          </Link>
+          <div className='grid lg:grid-cols-2 mx-auto items-center'>
+            <div>
+              <Image
+                src={Logo}
+                alt='Algequiztic-Logo'
+                className='w-72 md:w-96 mx-auto'
+              />
+            </div>
 
-          <div className='w-full max-w-md mx-auto px-5 sm:p-8'>
-            <h2 className='text-2xl font-semibold text-center mb-6 text-white'>
-              Sign up
-            </h2>
+            <div className='w-full max-w-md mx-auto px-5 sm:p-8'>
+              <h2 className='text-2xl font-semibold text-center mb-6 text-white'>
+                Sign up
+              </h2>
 
-            {error && (
-              <div className='bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4'>
-                {error}
-              </div>
-            )}
+              {error && (
+                <div className='bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative mb-4'>
+                  {error}
+                </div>
+              )}
 
-            <form className='space-y-4' onSubmit={handleSubmit}>
-              <div>
-                <input
-                  name='name'
-                  type='text'
-                  placeholder='Name'
-                  required
-                  className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
-                />
-              </div>
+              <form className='space-y-4' onSubmit={handleSubmit}>
+                <div>
+                  <input
+                    name='name'
+                    type='text'
+                    placeholder='Name'
+                    required
+                    className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
+                  />
+                </div>
 
-              <div>
-                <input
-                  name='email'
-                  type='email'
-                  placeholder='Email'
-                  required
-                  className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
-                />
-              </div>
+                <div>
+                  <input
+                    name='email'
+                    type='email'
+                    placeholder='Email'
+                    required
+                    className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
+                  />
+                </div>
 
-              <div>
-                <input
-                  name='studentNumber'
-                  type='text'
-                  placeholder='Student No.'
-                  required
-                  className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
-                />
-              </div>
+                <div>
+                  <input
+                    name='studentNumber'
+                    type='text'
+                    placeholder='Student No.'
+                    required
+                    className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
+                  />
+                </div>
 
-              <div>
-                <input
-                  name='password'
-                  type='password'
-                  placeholder='Password'
-                  required
-                  className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
-                />
-              </div>
+                <div>
+                  <input
+                    name='password'
+                    type='password'
+                    placeholder='Password'
+                    required
+                    className='w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-emerald-400'
+                  />
+                </div>
 
-              <button
-                type='submit'
-                disabled={loading}
-                className='w-full py-3 bg-emerald-400 text-white rounded-md hover:bg-emerald-500 transition-colors disabled:bg-emerald-300'
-              >
-                {loading ? "SIGNING UP..." : "SIGN UP"}
-              </button>
-            </form>
+                <button
+                  type='submit'
+                  disabled={loading}
+                  className='w-full py-3 bg-emerald-400 text-white rounded-md hover:bg-emerald-500 transition-colors disabled:bg-emerald-300'
+                >
+                  {loading ? "SIGNING UP..." : "SIGN UP"}
+                </button>
+              </form>
 
-            <p className='text-center mt-4 text-sm text-gray-600'>
-              Already have an account?{" "}
-              <Link href='/login' className='text-blue-500 hover:underline'>
-                Login.
-              </Link>
-            </p>
+              <p className='text-center mt-4 text-sm text-gray-600'>
+                Already have an account?{" "}
+                <Link href='/login' className='text-blue-500 hover:underline'>
+                  Login.
+                </Link>
+              </p>
+            </div>
           </div>
         </div>
       </div>

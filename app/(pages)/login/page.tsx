@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from "react";
 
 import { Container } from "@/app/components/common/Container";
 import LoginForm from "@/app/components/LoginForm";
@@ -6,7 +6,9 @@ import LoginForm from "@/app/components/LoginForm";
 export default function LoginPage() {
   return (
     <Container className='h-screen flex flex-col justify-center items-center'>
-      <LoginForm />
+      <Suspense>
+        <LoginForm />
+      </Suspense>
     </Container>
   );
 }
