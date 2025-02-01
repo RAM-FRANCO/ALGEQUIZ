@@ -35,7 +35,7 @@ export function QuizContent({
       ) : (
         <>
           <div className='bg-secondary/40 p-8 rounded-lg mb-6'>
-            <h2 className='text-2xl text-white text-center'>
+            <h2 className='text-xl md:text-2xl text-white text-center'>
               {questions[currentQuestion].question}
             </h2>
           </div>
@@ -55,15 +55,16 @@ export function QuizContent({
                         ${
                           showCorrectAnswer &&
                           option === questions[currentQuestion].answer
-                            ? "bg-primary_yellow"
+                            ? "bg-primary_yellow "
                             : `bg-${bgColors[index]}`
                         }
-                        
+                        ${showCorrectAnswer ? "cursor-not-allowed" : ""}
                         ${
                           selectedAnswer === option
                             ? "border-2 border-secondary"
                             : "border border-transparent"
                         }
+                        
                     `}
                   disabled={isSubmitting || showCorrectAnswer}
                 >
@@ -73,7 +74,7 @@ export function QuizContent({
             })}
           </div>
 
-          <div className='text-sm text-center mt-4'>
+          <div className='text-sm md:text-base text-center mt-4'>
             Question {currentQuestion + 1}/{questions.length} • Score: {score}
           </div>
         </>

@@ -23,7 +23,7 @@ export default function Hero() {
         <Image src={Icon} alt='ALGEQUIZTIC-ICON' className='w-12 md:w-14' />
         <Link
           href={session ? "/quiz" : "/login"}
-          className='bg-primary text-black px-4 py-2 rounded-xl md:text-xl w-32 text-center'
+          className='bg-primary text-black px-4 py-2 rounded-xl md:text-xl w-44 text-center font-bold'
         >
           START
         </Link>
