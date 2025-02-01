@@ -1,0 +1,1957 @@
+[
+  {
+    "topic": "Addition of Integers",
+    "levels": [
+      {
+        "level": "Easy",
+        "questions": [
+          {
+            "question": "What is the total of 8 + 72 = ___",
+            "options": ["111", "68", "100", "80"],
+            "answer": "80"
+          },
+          {
+            "question": "Find the value of 37 + 48 = ___",
+            "options": ["85", "-85", "-75", "-105"],
+            "answer": "85"
+          },
+          {
+            "question": "Solve: 5 + 5 = ___",
+            "options": ["-10", "10", "0", "1"],
+            "answer": "10"
+          },
+          {
+            "question": "Compute: 10 + (-5) = ___",
+            "options": ["-5", "15", "10", "5"],
+            "answer": "5"
+          },
+          {
+            "question": "What is the value of (-24) + (-12) = ___",
+            "options": ["-22", "36", "-36", "0"],
+            "answer": "-36"
+          },
+          {
+            "question": "Add: 7 + (-8) = ___",
+            "options": ["-1", "-15", "1", "15"],
+            "answer": "-1"
+          },
+          {
+            "question": "Find the missing value. ___ + 6 = 10",
+            "options": ["5", "7", "16", "4"],
+            "answer": "4"
+          },
+          {
+            "question": "Find the missing term. ___ + 6 = 11",
+            "options": ["5", "8", "-5", "6"],
+            "answer": "5"
+          },
+          {
+            "question": "Solve: (-4) + __ = 2",
+            "options": ["10", "2", "6", "-2"],
+            "answer": "6"
+          },
+          {
+            "question": "Evaluate: (-1) + 2 = ___",
+            "options": ["-3", "3", "1", "-1"],
+            "answer": "1"
+          },
+          {
+            "question": "What is the result of 109 + 100 = ___",
+            "options": ["-109", "219", "209", "109"],
+            "answer": "209"
+          },
+          {
+            "question": "10 + (-1) = ___",
+            "options": ["11", "-11", "-9", "9"],
+            "answer": "9"
+          },
+          {
+            "question": "Add: 184 + 753 = ___",
+            "options": ["937", "831", "739", "-854"],
+            "answer": "937"
+          },
+          {
+            "question": "What is the missing value 7 + ___ = 10?",
+            "options": ["8", "-3", "17", "3"],
+            "answer": "3"
+          },
+          {
+            "question": "Calculate: (-7) + (-7) = ___",
+            "options": ["-14", "0", "14", "-77"],
+            "answer": "-14"
+          },
+          {
+            "question": "Add: 38 + 27 = ___",
+            "options": ["65", "87", "56", "78"],
+            "answer": "65"
+          },
+          {
+            "question": "What is the missing value in 5 + ___ = 9",
+            "options": ["-4", "14", "4", "-14"],
+            "answer": "4"
+          },
+          {
+            "question": "Find the missing term in ___ + 74 = 128",
+            "options": ["-54", "10", "54", "-45"],
+            "answer": "54"
+          },
+          {
+            "question": "3 + ___ = 3",
+            "options": ["0", "-3", "3", "1"],
+            "answer": "0"
+          },
+          {
+            "question": "Complete the following term. ___ + (-2) = -5",
+            "options": ["3", "7", "-3", "-7"],
+            "answer": "-3"
+          },
+          {
+            "question": "What is the result of (-1) + (-1) = ___",
+            "options": ["1", "-2", "-1", "2"],
+            "answer": "-2"
+          },
+          {
+            "question": "0 + (-9) = ___",
+            "options": ["2", "9", "-9", "0"],
+            "answer": "-9"
+          },
+          {
+            "question": "Solve: (-7) + (-6) = ___",
+            "options": ["13", "1", "-1", "-13"],
+            "answer": "-13"
+          },
+          {
+            "question": "Complete the following term. 3 + ___ = 9",
+            "options": ["6", "12", "-12", "-6"],
+            "answer": "6"
+          },
+          {
+            "question": "-107 + 319 = ___",
+            "options": ["112", "212", "121", "122"],
+            "answer": "212"
+          },
+          {
+            "question": "4 + (-7) = ___",
+            "options": ["11", "-3", "-11", "4"],
+            "answer": "-3"
+          },
+          {
+            "question": "(-2) + (-9) = ___",
+            "options": ["7", "-7", "-11", "11"],
+            "answer": "-11"
+          },
+          {
+            "question": "Solve: 9 + ___ = 15",
+            "options": ["6", "24", "-6", "-24"],
+            "answer": "6"
+          },
+          {
+            "question": "10 + (-10) = ___",
+            "options": ["-10", "-1", "0", "10"],
+            "answer": "0"
+          },
+          {
+            "question": "1010 + 1017 = ___",
+            "options": ["2007", "2027", "-2027", "2072"],
+            "answer": "2027"
+          }
+        ]
+      },
+      {
+        "level": "Average",
+        "questions": [
+          {
+            "question": "Solve: 87 + 212 + 14 = ___",
+            "options": ["-313", "-331", "313", "311"],
+            "answer": "313"
+          },
+          {
+            "question": "178 + ___ + 45 = 223",
+            "options": ["-10", "-1", "0", "10"],
+            "answer": "0"
+          },
+          {
+            "question": "Add: 18 + (-13) + 61 = ___",
+            "options": ["66", "-66", "0", "106"],
+            "answer": "66"
+          },
+          {
+            "question": "What is the total of (-19) + 19 + 100 + 16 = ___",
+            "options": ["-116", "116", "-106", "106"],
+            "answer": "116"
+          },
+          {
+            "question": "Find the missing value: ___ + (-14) + 2 = 3",
+            "options": ["2", "15", "-15", "-2"],
+            "answer": "15"
+          },
+          {
+            "question": "Complete the following term. 21 + ___ + 54 = 67",
+            "options": ["-8", "8", "14", "12"],
+            "answer": "-8"
+          },
+          {
+            "question": "Add: 23 + (-23) + 23 = ___",
+            "options": ["23", "32", "0", "-23"],
+            "answer": "23"
+          },
+          {
+            "question": "Solve: 6 + (-7) + 9 + 12 + 34 + (-14) = ___",
+            "options": ["42", "-42", "40", "-40"],
+            "answer": "40"
+          },
+          {
+            "question": "Calculate: ___+ (-24) + 38 = 14",
+            "options": ["-14", "-1", "0", "14"],
+            "answer": "0"
+          },
+          {
+            "question": "Find the total of 8 + 9 + 5 + 14 + 27 = ___",
+            "options": ["-36", "-63", "36", "63"],
+            "answer": "63"
+          },
+          {
+            "question": "What is the total of (-10) + (-23) + (-9) = ___",
+            "options": ["42", "-4", "-42", "4"],
+            "answer": "-42"
+          },
+          {
+            "question": "What is the missing value? (-16) + (-6) + __ = -22",
+            "options": ["22", "-22", "0", "12"],
+            "answer": "0"
+          },
+          {
+            "question": "Add: (-30) + 147 + 50 = ___",
+            "options": ["-167", "167", "176", "-176"],
+            "answer": "167"
+          },
+          {
+            "question": "Solve: (-9) + (-5) + 7 = ___",
+            "options": ["21", "3", "-7", "7"],
+            "answer": "-7"
+          },
+          {
+            "question": "Solve: 11 + (-16) + (-10) + 26 + 18 = ___",
+            "options": ["-29", "37", "-50", "29"],
+            "answer": "29"
+          },
+          {
+            "question": "17 + (-12) + 84 = ___",
+            "options": ["-89", "-98", "98", "89"],
+            "answer": "89"
+          },
+          {
+            "question": "(-7) + 9 + 2 = ___",
+            "options": ["4", "6", "-4", "-18"],
+            "answer": "4"
+          },
+          {
+            "question": "15 + 69 + ___ = 108",
+            "options": ["46", "24", "-24", "-46"],
+            "answer": "24"
+          },
+          {
+            "question": "(-16) + 49 + 33 = ___",
+            "options": ["66", "-99", "99", "-66"],
+            "answer": "66"
+          },
+          {
+            "question": "2 + 7 + (-10) = ___",
+            "options": ["5", "-5", "-1", "1"],
+            "answer": "-1"
+          },
+          {
+            "question": "___ + 9 + 11 + (-14) = -14",
+            "options": ["-19", "20", "29", "-20"],
+            "answer": "-20"
+          },
+          {
+            "question": "Calculate: (-2) + 7 + (-12) = ___",
+            "options": ["-5", "7", "-7", "5"],
+            "answer": "-7"
+          },
+          {
+            "question": "7 + ___ + (-3) = 0",
+            "options": ["-6", "4", "6", "-4"],
+            "answer": "-4"
+          },
+          {
+            "question": "What is the missing term? 5 + (-21) + ___ = -22",
+            "options": ["6", "-6", "9", "8"],
+            "answer": "-6"
+          },
+          {
+            "question": "Add: (-30) + 30 + (-30) = ___",
+            "options": ["-30", "0", "90", "-90"],
+            "answer": "-30"
+          },
+          {
+            "question": "___ + 26 + 0 = 26",
+            "options": ["-26", "-16", "26", "0"],
+            "answer": "0"
+          },
+          {
+            "question": "Solve: 20 + ___ + 9 = 214",
+            "options": ["185", "-185", "158", "-158"],
+            "answer": "185"
+          },
+          {
+            "question": "Complete the following term. 9 + 7 + ___ = 18",
+            "options": ["-10", "-1", "-2", "2"],
+            "answer": "2"
+          },
+          {
+            "question": "(-50) + 73 + (-47) = ___",
+            "options": ["6", "-24", "12", "-24"],
+            "answer": "-24"
+          },
+          {
+            "question": "Solve: 81 + 73 + 94 + 45 + 90 = ___",
+            "options": ["348", "-448", "384", "383"],
+            "answer": "383"
+          }
+        ]
+      },
+      {
+        "level": "Difficult",
+        "questions": [
+          {
+            "question": "A diver is 60 meters from the ocean surface. He descends 35 meters more. What is his total distance from the surface down to his current depth?",
+            "options": ["-95 meters", "-25 meters", "25 meters", "95 meters"],
+            "answer": "-95 meters"
+          },
+          {
+            "question": "The temperature is -8°C in the morning. It increases by 15°C by evening. What is the temperature now?",
+            "options": ["-23°C", "7°C", "-7°C", "23°C"],
+            "answer": "7°C"
+          },
+          {
+            "question": "A mountain climber starts at 1,250 meters. He descends 350 meters and then climbs 500 meters higher. What is his final elevation?",
+            "options": [
+              "1,400 meters",
+              "1,750 meters",
+              "900 meters",
+              "400 meters"
+            ],
+            "answer": "1,400 meters"
+          },
+          {
+            "question": "A small company reports a profit of Php 7,500. Then, they sell their assets for Php 12,300. How much money did they earn?",
+            "options": ["Php 4,800", "-Php 4,800", "-Php 19,800", "Php 19,800"],
+            "answer": "Php 19,800"
+          },
+          {
+            "question": "A submarine is 450 meters below sea level. It rises 300 meters and then descends another 200 meters. What is its final position?",
+            "options": [
+              "-150 meters",
+              "-350 meters",
+              "-550 meters",
+              "-650 meters"
+            ],
+            "answer": "-350 meters"
+          },
+          {
+            "question": "A football team gains 12 yards on one play, loses 18 yards on another, and then gains 7 yards. What is the net yardage?",
+            "options": ["-23 yards", "1 yard", "-1 yard", "23 yards"],
+            "answer": "1 yard"
+          },
+          {
+            "question": "A blue whale eats 321 kilos of tiny shrimp the whole morning. Several hours later, it ate another 456 kilos of tiny shrimp. How many tiny shrimps did the blue whale eat?",
+            "options": ["135 kilos", "777 kilos", "175 kilos", "753 kilos"],
+            "answer": "777 kilos"
+          },
+          {
+            "question": "A bank account starts with Php 500,000.00. Then, a withdrawal of Php 750,000.00 is made, followed by a deposit of Php 300,000.00. What is the final balance?",
+            "options": [
+              "Php 1,250.00",
+              "Php 500.00",
+              "Php 50.00",
+              "Php 1,550.00"
+            ],
+            "answer": "Php 50.00"
+          },
+          {
+            "question": "A hiker starts at -80 meters. She ascends 130 meters and then descends 60 meters. What is her final position?",
+            "options": ["-90 meters", "-10 meters", "10 meters", "90 meters"],
+            "answer": "-10 meters"
+          },
+          {
+            "question": "The temperature is -25°C. It increases by 40°C during the day and drops by 18°C at night. What is the final temperature?",
+            "options": ["-3°C", "-43°C", "3°C", "43°C"],
+            "answer": "-3°C"
+          },
+          {
+            "question": "An investor loses Php 1,200 on one investment, gains Php 750 on another, and loses Php 500 again. What is the total change in value?",
+            "options": [
+              "Php 50 gain",
+              "Php 50 loss",
+              "Php 1,950 gain",
+              "Php 1,950 loss"
+            ],
+            "answer": "Php 950 loss"
+          },
+          {
+            "question": "A plane is flying at 2,000 meters. It descends by 1,250 meters and then climbs 750 meters. What is its new altitude?",
+            "options": [
+              "1,500 meters",
+              "2,500 meters",
+              "1,000 meters",
+              "3,000 meters"
+            ],
+            "answer": "1,500 meters"
+          },
+          {
+            "question": "A person has a balance of Php 200. They deposit Php 4,500.00, then withdraw Php 2,000.00. What is their final balance?",
+            "options": [
+              "Php 2,700.00",
+              "Php 500.00",
+              "Php 6,500.00",
+              "Php 2,500.00"
+            ],
+            "answer": "Php 2,700.00"
+          },
+          {
+            "question": "A marathon runner starts at -90 meters below sea level, ascends 250 meters, and then descends 120 meters. What is her final elevation?",
+            "options": [
+              "-40 m",
+              "40 m",
+              "40 m below sea level",
+              "-40 m below sea level"
+            ],
+            "answer": "40 m"
+          },
+          {
+            "question": "A stock drops by Php 250, increases by Php 400, and then drops by Php 300 again. What is the total change?",
+            "options": [
+              "Php 15 increase",
+              "Php 15 decrease",
+              "Php 50 increase",
+              "Php 50 decrease"
+            ],
+            "answer": "Php 150 decrease"
+          },
+          {
+            "question": "A person owes Php 800 to one lender, Php 500 to another, and Php 300 to a third. They pay back Php 900 in total. What is their remaining debt?",
+            "options": ["Php 1,600", "-Php 1,300", "Php 300", "Php 1,300"],
+            "answer": "Php 700"
+          },
+          {
+            "question": "The temperature is 5°C. It drops by 8°C and then rises by 12°C. What is the final temperature?",
+            "options": ["9°C", "15°C", "-9°C", "-1°C"],
+            "answer": "9°C"
+          },
+          {
+            "question": "An elevator starts on the 3rd floor. It goes up 10 floors, down 12 floors, and then up 5 floors. What floor is it on?",
+            "options": ["3rd floor", "6th floor", "8th floor", "-6th floor"],
+            "answer": "6th floor"
+          },
+          {
+            "question": "A government starts with a deficit of Php 5 billion. It earns Php 3 billion in revenue and then incurs PHP 2 billion in additional expenses. What is the new deficit?",
+            "options": [
+              "-Php 4 billion",
+              "-Php 2 billion",
+              "Php 4 billion",
+              "Php 2 billion"
+            ],
+            "answer": "-Php 4 billion"
+          },
+          {
+            "question": "A balloon is at 2,300 meters. It descends 700 meters, then rises 1,000 meters. Where is it now?",
+            "options": [
+              "600 meters",
+              "3,000 meters",
+              "2,600 meters",
+              "3,300 meters"
+            ],
+            "answer": "2,600 meters"
+          },
+          {
+            "question": "A factory loses Php 2,000, Php 1,800, and Php 1,500 in three consecutive months. What is the total loss?",
+            "options": ["Php 5,300", "-Php 5,300", "Php 5,000", "-Php 5,000"],
+            "answer": "-Php 5,300"
+          },
+          {
+            "question": "A family spends Php 2,500 on rent, Php 800 on groceries, and Php 600 on utilities but receives a bonus of Php 1,500. What is the net expense?",
+            "options": ["Php 2,400", "-Php 2,400", "Php 3,900", "-Php 3,900"],
+            "answer": "-Php 2,400"
+          },
+          {
+            "question": "A warehouse starts with 5,000 items. It ships out 2,750 items and receives shipments of 1,200 items. How many items are left?",
+            "options": ["4,450", "3,450", "6,450", "2,450"],
+            "answer": "3,450"
+          },
+          {
+            "question": "A shark is swimming 200 meters below sea level. It dives another 150 meters and then ascends 100 meters. What is its depth?",
+            "options": [
+              "-150 meters",
+              "-250 meters",
+              "-450 meters",
+              "-50 meters"
+            ],
+            "answer": "-250 meters"
+          },
+          {
+            "question": "A runner finishes a marathon in -10 seconds relative to the average time (faster). Then he loses 5 seconds in the next race (slower). What is the total difference from average?",
+            "options": ["-5 seconds", "-15 seconds", "15 seconds", "5 seconds"],
+            "answer": "-5 seconds"
+          },
+          {
+            "question": "The temperature in a city starts at -15°C in the morning. By noon, it rises by 12°C, and then by evening, it drops by 7°C. What is the temperature in the evening?",
+            "options": ["-10°C", "-5°C", "0°C", "5°C"],
+            "answer": "-10°C"
+          },
+          {
+            "question": "A hiker begins at -200 meters below sea level, ascends 350 meters, and then descends 150 meters. What is the hiker's current position?",
+            "options": ["-300 m", "0 m", "-50 m", "0 m above sea level"],
+            "answer": "0 m"
+          },
+          {
+            "question": "A small business experiences a loss of Php 2,000 in January, a profit of Php 3,000 in February, and another loss of Php 1,500 in March. What is the business's total balance after these three months?",
+            "options": ["Php 500", "-Php 1,500", "-Php 500", "Php 1,500"],
+            "answer": "-Php 500"
+          },
+          {
+            "question": "A player starts a video game with a score of -50 points. In the first round, they gained 120 points, but in the second round, they lost 70 points. What is the player's total score?",
+            "options": ["-80 points", "100 points", "0 points", "-100 points"],
+            "answer": "0 points"
+          },
+          {
+            "question": "A family has a starting budget of Php 1,000. They spend Php 1,200 on a vacation but receive a Php 500 refund for unused tickets. What is their final budget balance?",
+            "options": ["-Php 300", "-Php 700", "Php 1,300", "Php 300"],
+            "answer": "Php 300"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Subtraction of Integers",
+    "levels": [
+      {
+        "level": "Easy",
+        "questions": [
+          {
+            "question": "Find the missing value: ___ - (-10) = -42",
+            "options": ["-52", "32", "-32", "52"],
+            "answer": "-32"
+          },
+          {
+            "question": "Find the value of 19 – 23.",
+            "options": ["5", "-4", "-3", "4"],
+            "answer": "-4"
+          },
+          {
+            "question": "-11 - ___ = -1",
+            "options": ["-10", "10", "-12", "12"],
+            "answer": "-10"
+          },
+          {
+            "question": "Complete the following term: -112 - ___ = -147",
+            "options": ["-75", "-35", "35", "45"],
+            "answer": "-35"
+          },
+          {
+            "question": "___ - 7 = -27",
+            "options": ["20", "34", "-20", "-34"],
+            "answer": "-20"
+          },
+          {
+            "question": "What is the difference between (-8) – 10?",
+            "options": ["2", "18", "-2", "-18"],
+            "answer": "-18"
+          },
+          {
+            "question": "127 – 12 = ___",
+            "options": ["112", "117", "115", "-114"],
+            "answer": "115"
+          },
+          {
+            "question": "Find the difference of 347 – 164.",
+            "options": ["-183", "-138", "183", "138"],
+            "answer": "183"
+          },
+          {
+            "question": "(-3) – (-4) = ___",
+            "options": ["-7", "7", "1", "-1"],
+            "answer": "1"
+          },
+          {
+            "question": "19 – (-7) = ?",
+            "options": ["-12", "26", "-26", "12"],
+            "answer": "26"
+          },
+          {
+            "question": "Complete the following term: -60 – 54 = ___",
+            "options": ["-114", "141", "0", "114"],
+            "answer": "-114"
+          },
+          {
+            "question": "(-10) – 12 = ?",
+            "options": ["-22", "2", "-2", "22"],
+            "answer": "-22"
+          },
+          {
+            "question": "Perform the operation (-21) – (-5).",
+            "options": ["16", "25", "-16", "-25"],
+            "answer": "-16"
+          },
+          {
+            "question": "What is 11 – (-5)?",
+            "options": ["-6", "6", "16", "10"],
+            "answer": "16"
+          },
+          {
+            "question": "___ - (-5) = -9",
+            "options": ["4", "-4", "14", "-14"],
+            "answer": "-4"
+          },
+          {
+            "question": "-12 - ___ = 0",
+            "options": ["-12", "12", "0", "1"],
+            "answer": "-12"
+          },
+          {
+            "question": "Complete the given term: 29 - ___ = -42",
+            "options": ["17", "71", "-17", "-71"],
+            "answer": "71"
+          },
+          {
+            "question": "Complete the given term: ___ - 4 = 15",
+            "options": ["16", "17", "18", "19"],
+            "answer": "19"
+          },
+          {
+            "question": "-7 - ___ = -12",
+            "options": ["2", "3", "4", "5"],
+            "answer": "-5"
+          },
+          {
+            "question": "30 – 21 = ?",
+            "options": ["3", "6", "9", "12"],
+            "answer": "9"
+          },
+          {
+            "question": "When the signs are ______, subtract and copy the sign of the number with the ______ absolute value.",
+            "options": [
+              "different/greater",
+              "the same/less",
+              "same/greater",
+              "addition/greater"
+            ],
+            "answer": "same/greater"
+          },
+          {
+            "question": "When the subtrahend is negative, change the subtraction sign to ______.",
+            "options": ["different", "the same", "greater", "addition"],
+            "answer": "addition"
+          },
+          {
+            "question": "Solve: 8 – (-5) = ___",
+            "options": ["3", "-3", "-13", "13"],
+            "answer": "13"
+          },
+          {
+            "question": "Solve: 6 – 19 = ___",
+            "options": ["-13", "13", "15", "-15"],
+            "answer": "-13"
+          },
+          {
+            "question": "Solve: -11 – (-4) = ___",
+            "options": ["-7", "7", "-15", "15"],
+            "answer": "-7"
+          },
+          {
+            "question": "Find the difference of 42 – 96.",
+            "options": ["45", "54", "-54", "-45"],
+            "answer": "-54"
+          },
+          {
+            "question": "What is the difference between (-61) – (-14)?",
+            "options": ["-7", "-47", "-44", "-74"],
+            "answer": "-47"
+          },
+          {
+            "question": "What is the difference between 183 – 157?",
+            "options": ["39", "28", "17", "26"],
+            "answer": "26"
+          },
+          {
+            "question": "Solve: -12 - ___ = -25",
+            "options": ["13", "-13", "-14", "14"],
+            "answer": "13"
+          },
+          {
+            "question": "Solve: 185 - 248",
+            "options": ["-36", "36", "-63", "63"],
+            "answer": "-63"
+          }
+        ]
+      },
+      {
+        "level": "Average",
+        "questions": [
+          {
+            "question": "What is the result of: 5 - (-3) – 7 - 14?",
+            "options": ["-1", "13", "-3", "-13"],
+            "answer": "-13"
+          },
+          {
+            "question": "Perform the indicated operation: -6 - 8 + 4?",
+            "options": ["-10", "-2", "2", "-18"],
+            "answer": "-10"
+          },
+          {
+            "question": "What is the difference between 10 - (-4) - 2?",
+            "options": ["12", "6", "4", "8"],
+            "answer": "12"
+          },
+          {
+            "question": "Solve: 9 - __ - (-3) = 17",
+            "options": ["7", "3", "-5", "5"],
+            "answer": "-5"
+          },
+          {
+            "question": "Perform the indicated operation: -8 - 42 + 145?",
+            "options": ["-91", "93", "-95", "95"],
+            "answer": "95"
+          },
+          {
+            "question": "What is the result of: 17 - (-4) - (-63)?",
+            "options": ["-48", "84", "-84", "48"],
+            "answer": "84"
+          },
+          {
+            "question": "Perform the indicated operation: -3 - (-7) + 10?",
+            "options": ["-4", "14", "8", "2"],
+            "answer": "14"
+          },
+          {
+            "question": "What is the difference of 4 - 5 - (-6)?",
+            "options": ["5", "-7", "3", "15"],
+            "answer": "5"
+          },
+          {
+            "question": "What is the result of: -2 - 4 + (-8)?",
+            "options": ["-14", "-10", "-4", "0"],
+            "answer": "-14"
+          },
+          {
+            "question": "What is the result of: -11 - (-3) - 22?",
+            "options": ["-26", "43", "30", "20"],
+            "answer": "-30"
+          },
+          {
+            "question": "Find the difference of 15 - (-3) - 5?",
+            "options": ["23", "10", "13", "8"],
+            "answer": "13"
+          },
+          {
+            "question": "Perform the indicated operation: -10 - 6 + (-9) - 7 - 18?",
+            "options": ["-52", "-54", "-50", "-55"],
+            "answer": "-50"
+          },
+          {
+            "question": "What is the result of: 73 - (-67) - 42?",
+            "options": ["98", "108", "89", "140"],
+            "answer": "98"
+          },
+          {
+            "question": "Find the difference of -150 - 200 - 310?",
+            "options": ["-460", "-160", "-360", "-660"],
+            "answer": "-660"
+          },
+          {
+            "question": "What is the difference between 88 - (-20) - 34?",
+            "options": ["74", "73", "-73", "74"],
+            "answer": "74"
+          },
+          {
+            "question": "Perform the indicated operation: 12 - 7 - (-4) - 100?",
+            "options": ["93", "-91", "-90", "91"],
+            "answer": "-91"
+          },
+          {
+            "question": "What is 0 - __ - (-8) = -4",
+            "options": ["-12", "-13", "-3", "12"],
+            "answer": "12"
+          },
+          {
+            "question": "What is the difference between -4 - (-12) - (-26)?",
+            "options": ["-24", "34", "-28", "28"],
+            "answer": "34"
+          },
+          {
+            "question": "Find the difference of 27 - (-105) - 8?",
+            "options": ["-144", "124", "122", "-124"],
+            "answer": "124"
+          },
+          {
+            "question": "Solve: 11 - (-40) - __ = -59",
+            "options": ["20", "55", "40", "30"],
+            "answer": "110"
+          },
+          {
+            "question": "Perform the indicated operation: -9 - 5 + 2?",
+            "options": ["-12", "-6", "-4", "3"],
+            "answer": "-12"
+          },
+          {
+            "question": "What is the result of: 14 - (-3) - 7 - 10 - 8 + 17?",
+            "options": ["7", "10", "9", "0"],
+            "answer": "9"
+          },
+          {
+            "question": "Find the difference of -100 - (-14) - 43?",
+            "options": ["-129", "0", "129", "219"],
+            "answer": "-129"
+          },
+          {
+            "question": "What is the difference of -12 - 5 - (-2)?",
+            "options": ["-19", "-15", "-9", "-7"],
+            "answer": "-15"
+          },
+          {
+            "question": "Find the difference of 6 - (-8) - (-4)?",
+            "options": ["18", "8", "10", "2"],
+            "answer": "18"
+          },
+          {
+            "question": "Solve: -2 - 5 - __ = -11",
+            "options": ["-1", "-2", "-9", "-4"],
+            "answer": "4"
+          },
+          {
+            "question": "What is the difference between 13 - (-2) - 6?",
+            "options": ["5", "9", "7", "15"],
+            "answer": "9"
+          },
+          {
+            "question": "What is the result of: -37 - 28 + 5?",
+            "options": ["-10", "-60", "-40", "62"],
+            "answer": "-60"
+          },
+          {
+            "question": "Find the difference of 6 - (-4) - 17?",
+            "options": ["-7", "13", "-3", "-1"],
+            "answer": "-7"
+          },
+          {
+            "question": "Perform the indicated operation: 0 - (-6) - (-9)?",
+            "options": ["-15", "5", "0", "15"],
+            "answer": "15"
+          }
+        ]
+      },
+      {
+        "level": "Difficult",
+        "questions": [
+          {
+            "question": "A submarine is at a depth of -50 meters and rises 20 meters. Where is it now?",
+            "options": ["-70 meters", "-30 meters", "-10 meters", "30 meters"],
+            "answer": "-30 meters"
+          },
+          {
+            "question": "A student had Php 450 but spent Php 300. What is their remaining balance?",
+            "options": ["Php 150", "Php 15", "Php 100", "Php 50"],
+            "answer": "Php 150"
+          },
+          {
+            "question": "The temperature was -10°C in the morning and dropped by 5°C. What is the current temperature?",
+            "options": ["-5°C", "5°C", "-15°C", "-10°C"],
+            "answer": "-15°C"
+          },
+          {
+            "question": "A mountain climber was at 2,000 meters above sea level and descended 500 meters. Where are they now?",
+            "options": [
+              "1000 meters",
+              "1500 meters",
+              "2500 meters",
+              "-500 meters"
+            ],
+            "answer": "1500 meters"
+          },
+          {
+            "question": "A bank account starts with P200, but P500 is withdrawn. What is the balance?",
+            "options": ["-P300", "P300", "P200", "-P200"],
+            "answer": "-P300"
+          },
+          {
+            "question": "A car was traveling at -60 km/h and decelerated by 30 km/h. What is the new speed?",
+            "options": ["-90 km/h", "-30 km/h", "-60 km/h", "30 km/h"],
+            "answer": "-90 km/h"
+          },
+          {
+            "question": "Zyler owed Php 400 but has paid Php 250. How much does he still owe?",
+            "options": ["Php 250", "Php 150", "Php 200", "Php 50"],
+            "answer": "Php 150"
+          },
+          {
+            "question": "A diver is at -30 feet underwater and rises by 40 feet. What is their position?",
+            "options": ["-10 feet", "10 feet", "-70 feet", "30 feet"],
+            "answer": "10 feet"
+          },
+          {
+            "question": "The elevation of a valley is -100 meters, and a hiker climbs up 70 meters. What is their elevation?",
+            "options": ["-70 meters", "-30 meters", "30 meters", "70 meters"],
+            "answer": "-30 meters"
+          },
+          {
+            "question": "On a number line, you are at 5. Subtract 10. Where do you land?",
+            "options": ["15", "-15", "-5", "0"],
+            "answer": "-5"
+          },
+          {
+            "question": "A warehouse started with 1,000 boxes of supplies. 450 were shipped to a client, and another 120 were reported as damaged. How many boxes are left?",
+            "options": ["330 boxes", "430 boxes", "530 boxes", "550 boxes"],
+            "answer": "430 boxes"
+          },
+          {
+            "question": "A student solved 20 problems but forgot to submit 5. How many were actually completed?",
+            "options": ["15", "25", "10", "5"],
+            "answer": "15"
+          },
+          {
+            "question": "A classroom started with -5 pencils but received 10 more. What is the count now?",
+            "options": ["-15", "5", "-5", "15"],
+            "answer": "5"
+          },
+          {
+            "question": "The event started with 500 students. 120 left early, and 80 more arrived late. How many were present at the end?",
+            "options": ["400", "460", "500", "560"],
+            "answer": "460"
+          },
+          {
+            "question": "A company had a loss of Php 500 but recovered Php 300 later. What is the net status?",
+            "options": ["-Php 200", "Php 800", "-Php 300", "Php 200"],
+            "answer": "-Php 200"
+          },
+          {
+            "question": "The school library had 300 books. They loaned out 150 books and received 25 books as donations. What is the current number of books in the library?",
+            "options": ["125", "175", "150", "275"],
+            "answer": "175"
+          },
+          {
+            "question": "A student scored -15 points on a quiz due to penalties but earned 25 points from extra credit. What is their final score?",
+            "options": ["10", "-10", "40", "-40"],
+            "answer": "10"
+          },
+          {
+            "question": "A class started with 40 students. By midyear, 12 students transferred out, and 5 new students joined. What is the current class size?",
+            "options": ["33", "28", "45", "30"],
+            "answer": "33"
+          },
+          {
+            "question": "An employee was assigned 50 tasks for the month. They completed 35 tasks but received penalties for 5 incomplete tasks. What is their adjusted task completion rate?",
+            "options": ["30 tasks", "35 tasks", "25 tasks", "45 tasks"],
+            "answer": "30 tasks"
+          },
+          {
+            "question": "An office budget started with Php 10,000. They spent Php 7,500 and incurred unexpected expenses of Php 1,200. What is the remaining budget?",
+            "options": ["Php 1,300", "Php 2,500", "Php 5,300", "Php 3,700"],
+            "answer": "Php 1,300"
+          },
+          {
+            "question": "A school library had 400 books. 90 books were borrowed, and 50 were overdue and not returned. How many books remain in the library?",
+            "options": ["260 books", "350 books", "310 books", "400 books"],
+            "answer": "260 books"
+          },
+          {
+            "question": "A student's initial score was 40. They lost 15 points for incorrect answers and gained 10 points for extra credit. What is their adjusted score?",
+            "options": ["25", "35", "45", "30"],
+            "answer": "35"
+          },
+          {
+            "question": "A classroom had 100 notebooks. Over the semester, 35 were distributed to students, and 20 were misplaced. How many notebooks are left?",
+            "options": [
+              "55 notebooks",
+              "65 notebooks",
+              "45 notebooks",
+              "70 notebooks"
+            ],
+            "answer": "45 notebooks"
+          },
+          {
+            "question": "A class of 50 students had 8 students absent on Monday and another 12 absent on Tuesday. What is the total number of students who attended on both days?",
+            "options": ["40", "38", "30", "42"],
+            "answer": "30"
+          },
+          {
+            "question": "Out of 120 students, 25 failed their first test, but 15 retook the test and passed. How many students still need to pass?",
+            "options": [
+              "10 students",
+              "15 students",
+              "25 students",
+              "40 students"
+            ],
+            "answer": "10 students"
+          },
+          {
+            "question": "An office started with 300 chairs. 75 were moved to a new office, and 25 were damaged and unusable. How many chairs are still available?",
+            "options": ["200 chairs", "225 chairs", "275 chairs", "250 chairs"],
+            "answer": "200 chairs"
+          },
+          {
+            "question": "A project had a budget of Php 25,000. They spent Php 18,750 and incurred an additional Php 4,000 in overruns. What is the total budget left?",
+            "options": ["Php 2,250", "Php 3,750", "Php 1,250", "Php 4,250"],
+            "answer": "Php 2,250"
+          },
+          {
+            "question": "An employee is entitled to 20 vacation days per year. They used 12 days in the first half of the year and 5 days in the second half. How many vacation days remain?",
+            "options": ["3 days", "5 days", "8 days", "2 days"],
+            "answer": "3 days"
+          },
+          {
+            "question": "A business earned Php 50,000 in revenue in January but incurred Php 35,000 in expenses and gave Php 5,000 in refunds. What is the net revenue for January?",
+            "options": ["Php 15,000", "Php 10,000", "Php 5,000", "Php 20,000"],
+            "answer": "Php 10,000"
+          },
+          {
+            "question": "A teacher had 120 markers. After lending 45 markers to another class and losing 30 during a move, how many markers remain?",
+            "options": [
+              "75 markers",
+              "45 markers",
+              "105 markers",
+              "90 markers"
+            ],
+            "answer": "45 markers"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Multiplication of Integers",
+    "levels": [
+      {
+        "level": "Easy",
+        "questions": [
+          {
+            "question": "Solve: 12 x 13 = ?",
+            "options": ["165", "156", "-156", "165"],
+            "answer": "156"
+          },
+          {
+            "question": "-14 x 5 = ?",
+            "options": ["-70", "75", "70", "-75"],
+            "answer": "-70"
+          },
+          {
+            "question": "What is the product of 6 x 3 = ?",
+            "options": ["10", "18", "1", "12"],
+            "answer": "18"
+          },
+          {
+            "question": "-13 x 3 = ?",
+            "options": ["39", "-39", "-36", "36"],
+            "answer": "-39"
+          },
+          {
+            "question": "17 x 4 = ?",
+            "options": ["86", "-86", "68", "-68"],
+            "answer": "68"
+          },
+          {
+            "question": "Find the product of -5 x 0 = ?",
+            "options": ["5", "0", "-5", "-10"],
+            "answer": "0"
+          },
+          {
+            "question": "Solve: 12 x 8 = ?",
+            "options": ["96", "84", "69", "76"],
+            "answer": "96"
+          },
+          {
+            "question": "-6 x 3 = ?",
+            "options": ["-12", "-15", "-18", "-20"],
+            "answer": "-18"
+          },
+          {
+            "question": "Multiply: 0 x 8 = ?",
+            "options": ["0", "8", "1", "-8"],
+            "answer": "0"
+          },
+          {
+            "question": "-7 x __ = -14",
+            "options": ["12", "-2", "2", "14"],
+            "answer": "2"
+          },
+          {
+            "question": "What is the product of 9 x 13 = ?",
+            "options": ["171", "107", "117", "177"],
+            "answer": "117"
+          },
+          {
+            "question": "Solve: -10 x 100 = ?",
+            "options": ["-1000", "100", "-100", "1000"],
+            "answer": "-1000"
+          },
+          {
+            "question": "Find the product of 5 x 5 = ?",
+            "options": ["15", "20", "25", "30"],
+            "answer": "25"
+          },
+          {
+            "question": "__ x 1 = -8",
+            "options": ["-9", "-8", "8", "0"],
+            "answer": "-8"
+          },
+          {
+            "question": "Calculate: 7 x 6 = ?",
+            "options": ["35", "12", "40", "42"],
+            "answer": "42"
+          },
+          {
+            "question": "3 x 40 = ?",
+            "options": ["120", "100", "140", "160"],
+            "answer": "120"
+          },
+          {
+            "question": "Multiple: -9 x 2 = ?",
+            "options": ["-16", "-18", "-20", "18"],
+            "answer": "-18"
+          },
+          {
+            "question": "-7 x 3 = ?",
+            "options": ["-21", "21", "-18", "18"],
+            "answer": "-21"
+          },
+          {
+            "question": "Find the product of 4 x 4 = ?",
+            "options": ["16", "12", "20", "24"],
+            "answer": "16"
+          },
+          {
+            "question": "What is 6 x __ = 0",
+            "options": ["6", "1", "0", "-6"],
+            "answer": "0"
+          },
+          {
+            "question": "-5 x 5 = ?",
+            "options": ["-10", "-15", "-20", "-25"],
+            "answer": "-25"
+          },
+          {
+            "question": "What is the product of 8 x 2 = ?",
+            "options": ["12", "14", "16", "18"],
+            "answer": "16"
+          },
+          {
+            "question": "-22 x 11 = ?",
+            "options": ["-121", "-242", "-224", "212"],
+            "answer": "-242"
+          },
+          {
+            "question": "Perform the indicated operation. 9 x 2 = ?",
+            "options": ["16", "17", "18", "19"],
+            "answer": "18"
+          },
+          {
+            "question": "Multiply: __ x 4 = -24",
+            "options": ["-6", "-2", "-8", "-12"],
+            "answer": "-6"
+          },
+          {
+            "question": "8 x 7 = ?",
+            "options": ["32", "56", "49", "63"],
+            "answer": "56"
+          },
+          {
+            "question": "Solve: 4 x 5 = ?",
+            "options": ["15", "16", "18", "20"],
+            "answer": "20"
+          },
+          {
+            "question": "-3 x 4 = ?",
+            "options": ["-10", "-12", "-14", "-15"],
+            "answer": "-12"
+          },
+          {
+            "question": "Calculate: 6 x 6 = ?",
+            "options": ["55", "36", "48", "30"],
+            "answer": "36"
+          },
+          {
+            "question": "-8 x 8 = ?",
+            "options": ["72", "-72", "-64", "64"],
+            "answer": "-64"
+          }
+        ]
+      },
+      {
+        "level": "Average",
+        "questions": [
+          {
+            "question": "Perform the operation: 4 x (−2) x 3.",
+            "options": ["-24", "24", "-12", "12"],
+            "answer": "-24"
+          },
+          {
+            "question": "What is the result of (−5) x 6 x (−3)?",
+            "options": ["90", "-90", "60", "-60"],
+            "answer": "90"
+          },
+          {
+            "question": "Find the product of 7 x (−8) x 2.",
+            "options": ["-112", "112", "-14", "14"],
+            "answer": "-112"
+          },
+          {
+            "question": "Calculate (−6) x 5 x 4.",
+            "options": ["-120", "120", "-100", "100"],
+            "answer": "-120"
+          },
+          {
+            "question": "What is the result of 9 x (−3) x (−2)?",
+            "options": ["54", "-54", "18", "-18"],
+            "answer": "54"
+          },
+          {
+            "question": "Multiply 3 x (−7) x 5.",
+            "options": ["-70", "105", "-105", "70"],
+            "answer": "-105"
+          },
+          {
+            "question": "Find the product of (−4) x 10 x (−3).",
+            "options": ["-120", "120", "40", "-40"],
+            "answer": "120"
+          },
+          {
+            "question": "What is the result of 8 x (−6) x 3?",
+            "options": ["-144", "144", "-48", "48"],
+            "answer": "-144"
+          },
+          {
+            "question": "Perform the operation: 2 x (−9) x 7.",
+            "options": ["-162", "126", "-162", "-126"],
+            "answer": "-126"
+          },
+          {
+            "question": "What do you get if you multiply (−3) x 6 x (−4)?",
+            "options": ["-72", "72", "-48", "48"],
+            "answer": "72"
+          },
+          {
+            "question": "What is the result of 5 × 6 × (−2)?",
+            "options": ["-30", "60", "-60", "30"],
+            "answer": "-60"
+          },
+          {
+            "question": "Multiply 10 × (−2) × 3.",
+            "options": ["-60", "60", "-30", "30"],
+            "answer": "-60"
+          },
+          {
+            "question": "Calculate (−5) × (−8) × 2.",
+            "options": ["-80", "40", "-40", "80"],
+            "answer": "80"
+          },
+          {
+            "question": "Find the product of 7 × 3 × 4.",
+            "options": ["-84", "84", "-56", "56"],
+            "answer": "84"
+          },
+          {
+            "question": "What do you get if you multiply (−6) × (-4) × 5?",
+            "options": ["-120", "120", "-30", "3"],
+            "answer": "120"
+          },
+          {
+            "question": "Perform the operation: 12 × (−3) × (−2).",
+            "options": ["72", "-72", "24", "-24"],
+            "answer": "72"
+          },
+          {
+            "question": "What is the result of (−2) × 6 × (−5)?",
+            "options": ["60", "-60", "30", "-30"],
+            "answer": "60"
+          },
+          {
+            "question": "Multiply 9 × (−4) × 5.",
+            "options": ["-45", "180", "-180", "45"],
+            "answer": "-180"
+          },
+          {
+            "question": "Find the product of (-6) × (−7) × (-2).",
+            "options": ["35", "84", "-35", "-84"],
+            "answer": "-84"
+          },
+          {
+            "question": "What is the result of multiplying (−3) × 8 × (−2)?",
+            "options": ["-48", "48", "-24", "24"],
+            "answer": "48"
+          },
+          {
+            "question": "Perform the operation: 4 × 6 × (−9).",
+            "options": ["-216", "216", "-54", "54"],
+            "answer": "-216"
+          },
+          {
+            "question": "Calculate the product of (−8) × (−7) × 2.",
+            "options": ["112", "-112", "80", "-80"],
+            "answer": "112"
+          },
+          {
+            "question": "What do you get if you multiply (−3) × (−6) × (−4)?",
+            "options": ["48", "72", "-48", "-72"],
+            "answer": "-72"
+          },
+          {
+            "question": "What is the result of 5 × (−2) × 10?",
+            "options": ["-100", "100", "-50", "50"],
+            "answer": "-100"
+          },
+          {
+            "question": "Perform the operation: (−9) × 3 × (−2).",
+            "options": ["36", "-54", "54", "-36"],
+            "answer": "54"
+          },
+          {
+            "question": "What is the product of 10 × (−4) × 5.",
+            "options": ["-100", "200", "-200", "100"],
+            "answer": "-200"
+          },
+          {
+            "question": "Multiply 11 × (−3) × (−2).",
+            "options": ["-66", "66", "-33", "33"],
+            "answer": "66"
+          },
+          {
+            "question": "What is the result of 8 × 4 × 5?",
+            "options": ["-160", "160", "-40", "40"],
+            "answer": "160"
+          },
+          {
+            "question": "Perform the operation: (−6) × (−3) × 2.",
+            "options": ["-36", "18", "-18", "36"],
+            "answer": "36"
+          },
+          {
+            "question": "Find the product of 12 × 5 × 4.",
+            "options": ["-240", "60", "-60", "240"],
+            "answer": "240"
+          }
+        ]
+      },
+      {
+        "level": "Difficult",
+        "questions": [
+          {
+            "question": "A submarine descends 12 meters per minute for 15 minutes. What is the total depth?",
+            "options": ["150 meters", "170 meters", "180 meters", "190 meters"],
+            "answer": "180 meters"
+          },
+          {
+            "question": "A factory produces 8 defective items every hour for 24 hours. What is the total number of defective items?",
+            "options": ["182", "192", "200", "180"],
+            "answer": "192"
+          },
+          {
+            "question": "A vehicle moves backward -9 kilometers per hour for 18 hours. How far has it travelled?",
+            "options": [
+              "-162 kilometers",
+              "-170 kilometers",
+              "-150 kilometers",
+              "-155 kilometers"
+            ],
+            "answer": "-162 kilometers"
+          },
+          {
+            "question": "A penalty of -25 points is given for every wrong answer. If there are 12 wrong answers, what is the total penalty?",
+            "options": [
+              "-200 points",
+              "-300 points",
+              "-350 points",
+              "-400 points"
+            ],
+            "answer": "-300 points"
+          },
+          {
+            "question": "A mountain climber descends -14 meters every hour for 10 hours. What is the total descent?",
+            "options": [
+              "-100 meters",
+              "-120 meters",
+              "-140 meters",
+              "-160 meters"
+            ],
+            "answer": "-140 meters"
+          },
+          {
+            "question": "A balloon rises 15 meters per minute for 8 minutes. What is its position?",
+            "options": ["110 meters", "120 meters", "130 meters", "140 meters"],
+            "answer": "120 meters"
+          },
+          {
+            "question": "The temperature drops -7°C per hour for 16 hours. What is the total temperature drop?",
+            "options": ["-112°C", "-118°C", "-108°C", "-100°C"],
+            "answer": "-112°C"
+          },
+          {
+            "question": "A debt of -100 pesos is paid for 20 days. What is the total payment?",
+            "options": [
+              "-1,800 pesos",
+              "-2,000 pesos",
+              "-2,200 pesos",
+              "-2,400 pesos"
+            ],
+            "answer": "-2,000 pesos"
+          },
+          {
+            "question": "A bank deducts -45 pesos every week for 13 weeks. What is the total deduction?",
+            "options": ["-560 pesos", "-575 pesos", "-585 pesos", "-600 pesos"],
+            "answer": "-585 pesos"
+          },
+          {
+            "question": "A hiker loses -30 meters of elevation every 6 minutes. How much elevation does he lose after 18 minutes?",
+            "options": [
+              "-60 meters",
+              "-90 meters",
+              "-120 meters",
+              "-150 meters"
+            ],
+            "answer": "-90 meters"
+          },
+          {
+            "question": "A diver descends -9 meters every second for 12 seconds. What is the total depth?",
+            "options": [
+              "-100 meters",
+              "-108 meters",
+              "-110 meters",
+              "-112 meters"
+            ],
+            "answer": "-108 meters"
+          },
+          {
+            "question": "A company incurs a loss of -120 pesos per day for 25 days. What is the total loss?",
+            "options": [
+              "-2,800 pesos",
+              "-2,900 pesos",
+              "-3,000 pesos",
+              "-3,100 pesos"
+            ],
+            "answer": "-3,000 pesos"
+          },
+          {
+            "question": "A delivery truck moves backward -50 meters every minute for 15 minutes. What is the total distance moved?",
+            "options": [
+              "-650 meters",
+              "-700 meters",
+              "-750 meters",
+              "-800 meters"
+            ],
+            "answer": "-750 meters"
+          },
+          {
+            "question": "The temperature drops -5°C every hour for 30 hours. What is the total drop?",
+            "options": ["-140°C", "-150°C", "-160°C", "-130°C"],
+            "answer": "-150°C"
+          },
+          {
+            "question": "A bank account is charged -200 pesos per transaction. If there are 18 transactions, what is the total charge?",
+            "options": [
+              "-3,600 pesos",
+              "-3,500 pesos",
+              "-3,400 pesos",
+              "-3,700 pesos"
+            ],
+            "answer": "-3,600 pesos"
+          },
+          {
+            "question": "A hot air balloon ascends 20 meters every minute for 6 minutes. What is the final position?",
+            "options": ["80 meters", "100 meters", "120 meters", "110 meters"],
+            "answer": "120 meters"
+          },
+          {
+            "question": "A climber gains 18 meters every hour for -7 hours. What is the total gain?",
+            "options": [
+              "-100 meters",
+              "-120 meters",
+              "-126 meters",
+              "-132 meters"
+            ],
+            "answer": "-126 meters"
+          },
+          {
+            "question": "A ship moves backward -12 kilometers every hour for 9 hours. What is the distance covered?",
+            "options": [
+              "-108 kilometers",
+              "-120 kilometers",
+              "-140 kilometers",
+              "-118 kilometers"
+            ],
+            "answer": "-108 kilometers"
+          },
+          {
+            "question": "A machine produces 36 items per hour. After 4 hours, how many items were produced?",
+            "options": ["124 items", "140 items", "144 items", "150 items"],
+            "answer": "144 items"
+          },
+          {
+            "question": "A submarine descends -80 meters per minute for 14 minutes. What is the total depth?",
+            "options": [
+              "-1,100 meters",
+              "-1,200 meters",
+              "-1,150 meters",
+              "-1,300 meters"
+            ],
+            "answer": "-1,120 meters"
+          },
+          {
+            "question": "A spacecraft moves -1,500 km/h for 6 hours. What is the total distance covered?",
+            "options": ["-8,500 km", "-9,000 km", "-9,500 km", "-10,000 km"],
+            "answer": "-9,000 km"
+          },
+          {
+            "question": "A worker earns -45 pesos per day for 20 days. What is the total salary?",
+            "options": [
+              "-900 pesos",
+              "-850 pesos",
+              "-950 pesos",
+              "-1,000 pesos"
+            ],
+            "answer": "-900 pesos"
+          },
+          {
+            "question": "A plane descends -400 feet per minute for 5 minutes. What is the total descent?",
+            "options": [
+              "-1,800 feet",
+              "-2,000 feet",
+              "-2,200 feet",
+              "-2,400 feet"
+            ],
+            "answer": "-2,000 feet"
+          },
+          {
+            "question": "A hiker loses -25 meters of elevation every 10 minutes. What is the total loss after 50 minutes?",
+            "options": [
+              "-100 meters",
+              "-120 meters",
+              "-125 meters",
+              "-150 meters"
+            ],
+            "answer": "-125 meters"
+          },
+          {
+            "question": "A tank drains 60 liters of water per hour for 8 hours. How much water was drained?",
+            "options": ["400 liters", "450 liters", "480 liters", "500 liters"],
+            "answer": "480 liters"
+          },
+          {
+            "question": "A team loses -12 points per game for 22 games. What is the total score?",
+            "options": [
+              "-260 points",
+              "-264 points",
+              "-270 points",
+              "-280 points"
+            ],
+            "answer": "-264 points"
+          },
+          {
+            "question": "A train reverses -75 kilometers per hour for 3 hours. How far did it reverse?",
+            "options": [
+              "-200 kilometers",
+              "-210 kilometers",
+              "-225 kilometers",
+              "-250 kilometers"
+            ],
+            "answer": "-225 kilometers"
+          },
+          {
+            "question": "A factory produces 500 defective items per week for 10 weeks. What is the total defective count?",
+            "options": [
+              "4,500 items",
+              "5,000 items",
+              "5,500 items",
+              "6,000 items"
+            ],
+            "answer": "5,000 items"
+          },
+          {
+            "question": "A diver ascends 15 meters every -3 seconds. How much depth did he gain?",
+            "options": ["-40 meters", "-45 meters", "-50 meters", "-55 meters"],
+            "answer": "-45 meters"
+          },
+          {
+            "question": "A climber ascends 50 meters per hour for -8 hours. How much elevation did he gain?",
+            "options": [
+              "-350 meters",
+              "-380 meters",
+              "-400 meters",
+              "-420 meters"
+            ],
+            "answer": "-400 meters"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "Division of Integers",
+    "levels": [
+      {
+        "level": "Easy",
+        "questions": [
+          {
+            "question": "What is the quotient of 10 ÷ 2 =?",
+            "options": ["2", "4", "5", "6"],
+            "answer": "5"
+          },
+          {
+            "question": "Solve −12 ÷ 3 =?",
+            "options": ["-4", "-6", "-3", "-2"],
+            "answer": "-4"
+          },
+          {
+            "question": "Find the quotient 15 ÷ −5 =?",
+            "options": ["2", "-3", "4", "-2"],
+            "answer": "-3"
+          },
+          {
+            "question": "Evaluate −16 ÷ −4 = ?",
+            "options": ["4", "-4", "5", "-5"],
+            "answer": "4"
+          },
+          {
+            "question": "Find the value of 20 ÷ 4 = ?",
+            "options": ["2", "4", "5", "6"],
+            "answer": "5"
+          },
+          {
+            "question": "What is the quotient of −30 ÷ 6 = ?",
+            "options": ["-5", "-4", "-6", "-3"],
+            "answer": "-5"
+          },
+          {
+            "question": "What is the result of 18 ÷ 9 = ?",
+            "options": ["2", "3", "1", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "Evaluate −25 ÷ −5 = ?",
+            "options": ["-5", "5", "-4", "4"],
+            "answer": "5"
+          },
+          {
+            "question": "Solve 24 ÷ 12 = ?",
+            "options": ["2", "3", "4", "6"],
+            "answer": "2"
+          },
+          {
+            "question": "Perform the indicated operation −40 ÷ 8 = ?",
+            "options": ["-5", "-4", "-3", "-6"],
+            "answer": "-5"
+          },
+          {
+            "question": "What is the result of 6 ÷ −2 = ?",
+            "options": ["2", "-2", "-3", "3"],
+            "answer": "-3"
+          },
+          {
+            "question": "Find the quotient of −14 ÷ 7 = ?",
+            "options": ["-2", "-3", "2", "3"],
+            "answer": "-2"
+          },
+          {
+            "question": "Calculate 21 ÷ 3 = ?",
+            "options": ["5", "6", "7", "8"],
+            "answer": "7"
+          },
+          {
+            "question": "What is the quotient of −27 ÷ −3 = ?",
+            "options": ["-9", "9", "-8", "8"],
+            "answer": "9"
+          },
+          {
+            "question": "Find the result of 30 ÷ −6 = ?",
+            "options": ["-5", "-4", "-3", "-6"],
+            "answer": "-5"
+          },
+          {
+            "question": "Solve __ ÷ 6 = −6",
+            "options": ["-36", "36", "-30", "30"],
+            "answer": "-36"
+          },
+          {
+            "question": "Calculate 28 ÷ __ = 7",
+            "options": ["4", "-4", "7", "-7"],
+            "answer": "4"
+          },
+          {
+            "question": "Find the missing term of 20 ÷ __ = 4",
+            "options": ["-5", "5", "4", "-4"],
+            "answer": "5"
+          },
+          {
+            "question": "Calculate 12 ÷ __ = 3",
+            "options": ["4", "-4", "3", "-3"],
+            "answer": "4"
+          },
+          {
+            "question": "Evaluate __ ÷ 3 = −6",
+            "options": ["18", "-18", "-15", "15"],
+            "answer": "-18"
+          },
+          {
+            "question": "What is the result of 45 ÷ __ = 5",
+            "options": ["9", "-9", "5", "-5"],
+            "answer": "9"
+          },
+          {
+            "question": "Solve __ ÷ 8 = −3",
+            "options": ["24", "-24", "16", "-16"],
+            "answer": "-24"
+          },
+          {
+            "question": "Evaluate 42 ÷ __ = 6",
+            "options": ["-7", "6", "5", "7"],
+            "answer": "7"
+          },
+          {
+            "question": "Find the result of __ ÷ − 4 = 8",
+            "options": ["32", "-32", "28", "-28"],
+            "answer": "-32"
+          },
+          {
+            "question": "What is the result of 8 ÷ __ = −4",
+            "options": ["2", "-2", "4", "-4"],
+            "answer": "-2"
+          },
+          {
+            "question": "Calculate __ ÷ 6 = −8",
+            "options": ["48", "-48", "42", "-42"],
+            "answer": "-48"
+          },
+          {
+            "question": "Solve 6 ÷ __ = 2",
+            "options": ["-8", "8", "6", "-6"],
+            "answer": "3"
+          },
+          {
+            "question": "What is the value of __÷ −5 = 7",
+            "options": ["-35", "35", "-30", "30"],
+            "answer": "-35"
+          },
+          {
+            "question": "Find the missing term 50 ÷ __ = 5",
+            "options": ["10", "-10", "5", "-5"],
+            "answer": "10"
+          },
+          {
+            "question": "What is the missing term __ ÷9 = −6",
+            "options": ["-54", "54", "-45", "45"],
+            "answer": "-54"
+          }
+        ]
+      },
+      {
+        "level": "Average",
+        "questions": [
+          {
+            "question": "Evaluate the expression: 48÷ (−8) ÷2",
+            "options": ["3", "−3", "6", "−6"],
+            "answer": "-3"
+          },
+          {
+            "question": "Simplify the division: (−120) ÷6÷ (−5)",
+            "options": ["6", "4", "−4", "−6"],
+            "answer": "4"
+          },
+          {
+            "question": "What is the result of (−90) ÷ (−3) ÷5?",
+            "options": ["6", "−6", "3", "−3"],
+            "answer": "6"
+          },
+          {
+            "question": "Find the value of 144÷ (−12) ÷ (−3)",
+            "options": ["4", "−4", "−12", "12"],
+            "answer": "4"
+          },
+          {
+            "question": "Solve: (−72) ÷ 8÷ (−2)",
+            "options": ["−9", "9", "18", "−18"],
+            "answer": "−9"
+          },
+          {
+            "question": "Determine the answer: (−180) ÷ (−9) ÷2÷5",
+            "options": ["−2", "2", "−20", "20"],
+            "answer": "2"
+          },
+          {
+            "question": "Evaluate: 64 ÷ (−4) ÷ (−2) ÷2",
+            "options": ["−4", "16", "4", "−8"],
+            "answer": "4"
+          },
+          {
+            "question": "What is the quotient of (−240) ÷12÷ (−5) ÷2",
+            "options": ["−2", "2", "10", "−10"],
+            "answer": "2"
+          },
+          {
+            "question": "Simplify the expression:108÷ (−6) ÷ (−3) ÷2",
+            "options": ["6", "3", "−3", "−6"],
+            "answer": "3"
+          },
+          {
+            "question": "Solve the expression:(−96) ÷ (−8) ÷2÷ (−2)",
+            "options": ["−3", "3", "−6", "6"],
+            "answer": "3"
+          },
+          {
+            "question": "Find the result of 100÷ (−5) ÷2",
+            "options": ["10", "−10", "−20", "20"],
+            "answer": "-10"
+          },
+          {
+            "question": "What is (−125) ÷ (−25) ÷ (−5)?",
+            "options": ["−1", "1", "5", "−5"],
+            "answer": "-1"
+          },
+          {
+            "question": "Evaluate 256÷ (−16) ÷ (−4)",
+            "options": ["−4", "16", "8", "4"],
+            "answer": "4"
+          },
+          {
+            "question": "Simplify (−300) ÷ (−15) ÷ (−3) ÷5",
+            "options": ["−4", "4", "20", "−20"],
+            "answer": "-4"
+          },
+          {
+            "question": "Solve 200÷ (−10) ÷4÷ (−2)",
+            "options": ["10", "−10", "20", "−20"],
+            "answer": "-10"
+          },
+          {
+            "question": "Find the quotient of (−84) ÷7÷ (−2) ÷ (−3)",
+            "options": ["2", "−2", "12", "−12"],
+            "answer": "-2"
+          },
+          {
+            "question": "Calculate the result: 216÷ (−9) ÷6÷ (−4)",
+            "options": ["1", "−1", "6", "−6"],
+            "answer": "1"
+          },
+          {
+            "question": "What is the value of (−180) ÷10÷ (−3) ÷3",
+            "options": ["−2", "2", "10", "−10"],
+            "answer": "2"
+          },
+          {
+            "question": "Evaluate 150÷ (−5) ÷3÷ (−2)",
+            "options": ["−5", "5", "−5", "10"],
+            "answer": "5"
+          },
+          {
+            "question": "Solve (−72) ÷ (−6) ÷ (−2) ÷ (−2)",
+            "options": ["−3", "3", "−6", "6"],
+            "answer": "3"
+          },
+          {
+            "question": "Calculate 360÷ (−12) ÷ (-5) ÷ 3",
+            "options": ["2", "2", "−2", "−10"],
+            "answer": "2"
+          },
+          {
+            "question": "What is the result of (−128) ÷ (−16) ÷ (−4) ÷ (−2)?",
+            "options": ["2", "−2", "1", "−1"],
+            "answer": "1"
+          },
+          {
+            "question": "Find the quotient of 300÷ (−25) ÷ (−2) ÷6?",
+            "options": ["−1", "1", "−2", "2"],
+            "answer": "1"
+          },
+          {
+            "question": "Solve (−240) ÷15÷ (−4) ÷ (−2)",
+            "options": ["−4", "2", "−2", "4"],
+            "answer": "2"
+          },
+          {
+            "question": "Evaluate 120÷ (−6) ÷ (−2) ÷ (−2)",
+            "options": ["−5", "5", "10", "−10"],
+            "answer": "5"
+          },
+          {
+            "question": "What is the quotient of (−144) ÷ (−12) ÷2?",
+            "options": ["6", "−6", "12", "−12"],
+            "answer": "6"
+          },
+          {
+            "question": "Evaluate 360÷ (−9) ÷ 5÷ (−4)",
+            "options": ["−2", "2", "4", "−4"],
+            "answer": "2"
+          },
+          {
+            "question": "Simplify (−160) ÷ 10÷ (−4).",
+            "options": ["4", "−4", "8", "−8"],
+            "answer": "4"
+          },
+          {
+            "question": "Find the value of 450÷ (−15) ÷ (−3)",
+            "options": ["−10", "30", "10", "−30"],
+            "answer": "10"
+          },
+          {
+            "question": "Solve (−216) ÷ (−6) ÷ (−3) ÷2",
+            "options": ["6", "−6", "−6", "12"],
+            "answer": "6"
+          }
+        ]
+      },
+      {
+        "level": "Difficult",
+        "questions": [
+          {
+            "question": "The company has 5,760 employees. If the company divides them into departments such that each department has 24 employees, how many departments does the company have?",
+            "options": [
+              "240 departments",
+              "230 departments",
+              "250 departments",
+              "270 departments"
+            ],
+            "answer": "240 departments"
+          },
+          {
+            "question": "A school orders 28,800 pencils and wants to divide them equally into 72 classrooms. How many pencils will each classroom receive?",
+            "options": [
+              "400 pencils",
+              "450 pencils",
+              "500 pencils",
+              "350 pencils"
+            ],
+            "answer": "400 pencils"
+          },
+          {
+            "question": "A food distribution center packages 5,400 meals every day. If each package contains 36 meals, how many packages does the center prepare each day?",
+            "options": [
+              "150 packages",
+              "125 packages",
+              "120 packages",
+              "115 packages"
+            ],
+            "answer": "150 packages"
+          },
+          {
+            "question": "A warehouse stocks 50,400 items. If they are arranged into 8 rows of equal numbers, how many items are in each row?",
+            "options": [
+              "6,300 items",
+              "6,200 items",
+              "6,100 items",
+              "6,000 items"
+            ],
+            "answer": "6,300 items"
+          },
+          {
+            "question": "A school enrolls 12,000 students. If the school wants to divide the students into 50 classrooms equally, how many students will be in each classroom?",
+            "options": [
+              "230 students",
+              "240 students",
+              "250 students",
+              "260 students"
+            ],
+            "answer": "240 students"
+          }
+        ]
+      }
+    ]
+  }
+]
