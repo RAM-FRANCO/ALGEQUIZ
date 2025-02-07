@@ -58,7 +58,7 @@ export default function SignupPage() {
 
   return (
     <Container className='h-screen flex flex-col justify-center items-center'>
-      <div className='w-full max-w-md mx-auto sm:p-8 '>
+      <div className='w-full lg:w-3/4 mx-auto sm:p-8 '>
         <div>
           <Link href='/'>
             <Image

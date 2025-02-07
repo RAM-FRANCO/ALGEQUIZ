@@ -49,7 +49,6 @@ export async function POST(req: Request) {
     }
 
     // Create new score
-
     const newScore = await prisma.score.create({
       data: {
         score,

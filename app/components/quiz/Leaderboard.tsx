@@ -34,7 +34,7 @@ export function Leaderboard({
         </div>
       </div>
       <div className=''>
-        <div className='flex justify-between items-center px-6 lg:py-2 font-bold text-black text-sm lg:text-lg '>
+        <div className='grid grid-cols-3 justify-center text-center  px-6 lg:py-2 font-bold text-black text-sm lg:text-lg '>
           <div className='flex items-center gap-3 font-bold '>
             <span className='ml-9'>Name</span>
           </div>
@@ -44,7 +44,7 @@ export function Leaderboard({
         {leaderboard.map((entry, index) => (
           <div
             key={index}
-            className='flex justify-between items-center px-6 py-2 '
+            className='grid grid-cols-3 justify-center text-center px-6 py-2 '
           >
             <div className='flex items-center gap-3  '>
               <Image src={crownIcon} alt='crown' className='w-6 h-6' />
