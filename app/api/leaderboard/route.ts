@@ -4,14 +4,15 @@ import { prisma } from "@/lib/prisma";
 
 export async function GET(request: Request) {
   try {
-    // Get topic and difficulty from URL parameters
+    // Get topic, difficulty, and number of questions from URL parameters
     const { searchParams } = new URL(request.url);
     const topic = searchParams.get("topic");
     const difficulty = searchParams.get("difficulty");
+    const numberOfQuestions = searchParams.get("numberOfQuestions");
 
-    if (!topic || !difficulty) {
+    if (!topic || !difficulty || !numberOfQuestions) {
       return NextResponse.json(
-        { error: "Topic and difficulty are required" },
+        { error: "Topic, difficulty, and number of questions are required" },
         { status: 400 }
       );
     }
@@ -21,6 +22,7 @@ export async function GET(request: Request) {
       where: {
         topic: topic,
         difficulty: difficulty,
+        questionCount: parseInt(numberOfQuestions, 10),
       },
       include: {
         user: {

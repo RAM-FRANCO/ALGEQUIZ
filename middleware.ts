@@ -8,5 +8,5 @@ export default withAuth({
 });
 
 export const config = {
-  matcher: ["/quiz/:path*"], // Add any protected routes here
+  matcher: ["/quiz/:path*", "/dashboard"], // Add any protected routes here
 };

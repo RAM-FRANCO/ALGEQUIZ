@@ -12,9 +12,10 @@ import { StartQuiz } from "./../../components/quiz/StartQuiz";
 import { QuizContent } from "./../../components/quiz/QuizContent";
 import { Leaderboard } from "./../../components/quiz/Leaderboard";
 import musicIcon from "@/public/audio-icon.png";
-import { signOut } from "next-auth/react";
+import { signOut, useSession } from "next-auth/react";
 import { ResetQuizDialog } from "@/app/components/quiz/ResetQuizDialog";
 import { SignoutDialog } from "@/app/components/alert-dialog-signout";
+import { useRouter } from "next/navigation";
 
 type Question = {
   question: string;
@@ -29,6 +30,8 @@ type LeaderboardEntry = {
 };
 
 export default function Page() {
+  const router = useRouter();
+  const { data: session } = useSession();
   const [selectedTopic, setSelectedTopic] = useState("");
   const [selectedDifficulty, setSelectedDifficulty] = useState("");
   const [numberOfQuestions, setNumberQuestions] = useState(5);
@@ -53,6 +56,24 @@ export default function Page() {
 
   // Get unique topics from quiz data
   const topics = [...new Set(quizData.map((item) => item.topic))];
+
+  useEffect(() => {
+    if (session?.user?.role === "teacher") {
+      router.push("/dashboard");
+    }
+  }, [session, router]);
+
+  useEffect(() => {
+    audioRef.current = new Audio("/bg-music.mp3");
+    audioRef.current.loop = true;
+
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current = null;
+      }
+    };
+  }, []);
 
   // Get difficulties based on selected topic
   const difficulties = selectedTopic
@@ -135,6 +156,7 @@ export default function Page() {
           topic: selectedTopic,
           difficulty: selectedDifficulty,
           totalTime: totalPossibleTime,
+          questionCount: numberOfQuestions,
           timeSpent,
         }),
       });
@@ -143,7 +165,7 @@ export default function Page() {
 
       // Fetch leaderboard data
       const leaderboardResponse = await fetch(
-        `/api/leaderboard?topic=${selectedTopic}&difficulty=${selectedDifficulty}`
+        `/api/leaderboard?topic=${selectedTopic}&difficulty=${selectedDifficulty}&numberOfQuestions=${numberOfQuestions}`
       );
       const leaderboardData = await leaderboardResponse.json();
 
@@ -194,18 +216,6 @@ export default function Page() {
 
     return () => clearInterval(interval);
   }, [quizStarted, timer, currentQuestion, isTimerPaused]);
-
-  useEffect(() => {
-    audioRef.current = new Audio("/bg-music.mp3");
-    audioRef.current.loop = true;
-
-    return () => {
-      if (audioRef.current) {
-        audioRef.current.pause();
-        audioRef.current = null;
-      }
-    };
-  }, []);
 
   const getTimerByDifficulty = () => {
     const timerMap = { Easy: 15, Average: 30, Difficult: 60 };
@@ -258,6 +268,10 @@ export default function Page() {
     signOut();
   };
 
+  if (session?.user?.role === "teacher") {
+    return null;
+  }
+
   return (
     <Container className='relative'>
       <button
@@ -309,7 +323,11 @@ export default function Page() {
             />
           </div>
           {quizStarted && (
-            <div className='bg-primary rounded-full p-4 text-sm md:text-base absolute top-10 right-5 md:right-10 w-20 md:h-24 h-20 md:w-24 flex justify-center items-center flex-col'>
+            <div
+              className={`${
+                timer <= 5 ? "bg-red-500 text-white" : "bg-primary"
+              } rounded-full p-4 text-sm md:text-base absolute top-10 right-5 md:right-10 w-20 md:h-24 h-20 md:w-24 flex justify-center items-center flex-col`}
+            >
               <span className='font-medium'>TIME</span>
               <p>{timer}s</p>
             </div>
@@ -321,6 +339,7 @@ export default function Page() {
             leaderboard={leaderboard}
             selectedTopic={selectedTopic}
             selectedDifficulty={selectedDifficulty}
+            numberOfQuestions={numberOfQuestions}
           />
         ) : !quizStarted ? (
           <StartQuiz

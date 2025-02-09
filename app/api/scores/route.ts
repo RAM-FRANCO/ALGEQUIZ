@@ -1,6 +1,9 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+/* eslint-disable @typescript-eslint/no-unused-vars */
 import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { prisma } from "@/lib/prisma";
+import { authOptions } from "@/lib/auth";
 
 export async function POST(req: Request) {
   try {
@@ -9,7 +12,8 @@ export async function POST(req: Request) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
-    const { score, topic, difficulty, totalTime, timeSpent } = await req.json();
+    const { score, topic, difficulty, totalTime, timeSpent, questionCount } =
+      await req.json();
 
     const user = await prisma.user.findUnique({
       where: { email: session.user.email },
@@ -21,13 +25,13 @@ export async function POST(req: Request) {
 
     console.log("user id from db", user.id);
 
-    // Check for existing score with same topic and difficulty
-
+    // Check for existing score with same topic, difficulty and questionCount
     const existingScore = await prisma.score.findFirst({
       where: {
         userId: user.id,
         topic,
         difficulty,
+        questionCount,
       },
     });
 
@@ -54,6 +58,7 @@ export async function POST(req: Request) {
         score,
         topic,
         difficulty,
+        questionCount,
         totalTime,
         timeSpent,
         userId: user.id,
@@ -65,6 +70,59 @@ export async function POST(req: Request) {
     console.error("Error handling score:", error);
     return NextResponse.json(
       { error: "Internal server error" },
+      { status: 500 }
+    );
+  }
+}
+
+export async function GET(request: Request) {
+  try {
+    const session = await getServerSession(authOptions);
+
+    if (!session) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
+    const { searchParams } = new URL(request.url);
+    const topic = searchParams.get("topic");
+    const difficulty = searchParams.get("difficulty");
+    const questionCount = searchParams.get("questionCount");
+
+    const where: any = {};
+    if (topic) where.topic = topic;
+    if (difficulty) where.difficulty = difficulty;
+    if (questionCount) where.questionCount = parseInt(questionCount);
+
+    const scores = await prisma.score.findMany({
+      where,
+      include: {
+        user: {
+          select: {
+            name: true,
+            studentNumber: true,
+          },
+        },
+      },
+      orderBy: {
+        createdAt: "desc",
+      },
+    });
+
+    const formattedScores = scores.map((score) => ({
+      id: score.id,
+      studentName: score.user.name,
+      studentNumber: score.user.studentNumber,
+      topic: score.topic,
+      difficulty: score.difficulty,
+      questionCount: score.questionCount,
+      score: score.score,
+      date: score.createdAt,
+    }));
+
+    return NextResponse.json(formattedScores);
+  } catch (error) {
+    return NextResponse.json(
+      { error: "Internal Server Error" },
       { status: 500 }
     );
   }

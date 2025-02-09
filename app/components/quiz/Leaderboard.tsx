@@ -13,12 +13,14 @@ type LeaderboardProps = {
   leaderboard: LeaderboardEntry[];
   selectedTopic: string;
   selectedDifficulty: string;
+  numberOfQuestions: number;
 };
 
 export function Leaderboard({
   leaderboard,
   selectedTopic,
   selectedDifficulty,
+  numberOfQuestions,
 }: LeaderboardProps) {
   return (
     <div className='space-y-4 lg:space-y-6 bg-white lg:w-2/4 mx-auto rounded-3xl p-6'>
@@ -29,7 +31,8 @@ export function Leaderboard({
             Student&apos;s Ranking
           </h2>
           <p className='text-sm md:text-base text-center'>
-            {selectedTopic} ({selectedDifficulty})
+            {selectedTopic} ({selectedDifficulty}) - {numberOfQuestions}{" "}
+            Questions
           </p>
         </div>
       </div>

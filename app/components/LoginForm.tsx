@@ -26,19 +26,32 @@ export default function LoginForm() {
     const password = formData.get("password") as string;
 
     try {
-      const result = await signIn("credentials", {
+      const response = await signIn("credentials", {
         email,
         password,
         redirect: false,
       });
 
-      if (result?.error) {
+      if (response?.error) {
         setError("Invalid email or password");
         return;
       }
 
       router.push("/quiz");
       router.refresh();
+      // if (response?.ok) {
+      //   // Get user data including role
+      //   const userResponse = await fetch('/api/user');
+      //   const userData = await userResponse.json();
+
+      //   if (userData.role === 'teacher') {
+      //     router.push('/dashboard');
+      //   } else {
+      //     router.push('/quiz');
+      //   }
+      // } else {
+      //   setError('Invalid credentials');
+      // }
     } catch (error) {
       setError("An error occurred during login");
     } finally {
