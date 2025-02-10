@@ -92,11 +92,11 @@ export default function ScoresOverview() {
   const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
-    <div className='p-10 space-y-5'>
-      {" "}
-      <h1 className='text-2xl font-bold mb-6'>Scores Overview</h1>
+    <div className='space-y-5'>
+      <h1 className='text-xl md:text-2xl font-bold mb-6'>Scores Overview</h1>
+
       {/* Filters */}
-      <div className='grid grid-cols-3 gap-4 mb-6'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-6'>
         <input
           type='text'
           placeholder='Search by student name'
@@ -151,16 +151,19 @@ export default function ScoresOverview() {
           <option value='5'>5 Questions</option>
         </select>
       </div>
+
       {/* Scores Table */}
       {loading ? (
-        <div className='flex flex-col gap-5 justify-center items-center py-20'>
-          <div className='animate-spin rounded-full h-12 w-12 border-b-2 border-gray-900'></div>
+        <div className='flex flex-col gap-5 justify-center items-center py-10 md:py-20'>
+          <div className='animate-spin rounded-full h-8 w-8 md:h-12 md:w-12 border-b-2 border-gray-900'></div>
           <p>Loading...</p>
         </div>
       ) : scores.length === 0 ? (
-        <div className='text-center py-10 text-gray-500'>No records found</div>
+        <div className='text-center py-8 md:py-10 text-gray-500'>
+          No records found
+        </div>
       ) : (
-        <div className='bg-white shadow-md rounded-lg'>
+        <div className='bg-white shadow-md rounded-lg overflow-x-auto'>
           <table className='min-w-full'>
             <thead>
               <tr className='bg-gray-50'>
@@ -211,22 +214,25 @@ export default function ScoresOverview() {
             <tbody className='bg-white divide-y divide-gray-200'>
               {currentRows.map((score) => (
                 <tr key={score.id}>
-                  <td className='px-6 py-4 whitespace-nowrap'>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
                     {score.studentNumber}
                   </td>
-                  <td className='px-6 py-4 whitespace-nowrap'>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
                     {score.studentName}
                   </td>
-
-                  <td className='px-6 py-4 whitespace-nowrap'>{score.topic}</td>
-                  <td className='px-6 py-4 whitespace-nowrap'>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
+                    {score.topic}
+                  </td>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
                     {score.difficulty}
                   </td>
-                  <td className='px-6 py-4 whitespace-nowrap'>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
                     {score.questionCount}
                   </td>
-                  <td className='px-6 py-4 whitespace-nowrap'>{score.score}</td>
-                  <td className='px-6 py-4 whitespace-nowrap'>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
+                    {score.score}
+                  </td>
+                  <td className='px-2 md:px-6 py-2 md:py-4 text-sm whitespace-nowrap'>
                     {new Date(score.date).toLocaleString()}
                   </td>
                 </tr>
@@ -234,21 +240,21 @@ export default function ScoresOverview() {
             </tbody>
           </table>
 
-          <div className='px-6 py-4 flex justify-between items-center border-t'>
+          <div className='px-4 md:px-6 py-3 md:py-4 flex justify-between items-center border-t'>
             <button
               onClick={() => paginate(currentPage - 1)}
               disabled={currentPage === 1}
-              className='px-3 py-1 rounded border disabled:opacity-50'
+              className='px-2 md:px-3 py-1 text-sm rounded border disabled:opacity-50'
             >
               Previous
             </button>
-            <span>
+            <span className='text-xs md:text-sm'>
               Page {currentPage} of {totalPages}
             </span>
             <button
               onClick={() => paginate(currentPage + 1)}
               disabled={currentPage === totalPages}
-              className={`px-3 py-1 rounded border disabled:opacity-50 ${
+              className={`px-2 md:px-3 py-1 text-sm rounded border disabled:opacity-50 ${
                 currentPage === totalPages ? "" : "bg-blue-500 text-white"
               }`}
             >

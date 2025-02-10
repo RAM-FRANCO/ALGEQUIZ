@@ -308,7 +308,7 @@ export default function Page() {
           Logout
         </button>
       )}
-      <div className='w-full lg:w-3/4 mx-auto px-5 sm:p-8'>
+      <div className='w-full lg:w-3/4 mx-auto sm:p-8'>
         {quizStarted ? (
           <button onClick={handleResetQuiz}>
             <Image

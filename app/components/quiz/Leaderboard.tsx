@@ -23,7 +23,7 @@ export function Leaderboard({
   numberOfQuestions,
 }: LeaderboardProps) {
   return (
-    <div className='space-y-4 lg:space-y-6 bg-white lg:w-2/4 mx-auto rounded-3xl p-6'>
+    <div className='space-y-4 lg:space-y-6 bg-white lg:w-3/4 mx-auto rounded-3xl p-4 md:p-6'>
       <div className='flex items-center justify-center gap-2 mb-5'>
         <Image src={leaderboardIcon} alt='leaderboard' className='w-10 h-10' />
         <div>
@@ -37,7 +37,7 @@ export function Leaderboard({
         </div>
       </div>
       <div className=''>
-        <div className='grid grid-cols-3 justify-center text-center  px-6 lg:py-2 font-bold text-black text-sm lg:text-lg '>
+        <div className='grid grid-cols-3 justify-center text-center lg:py-2 font-bold text-black text-sm lg:text-lg '>
           <div className='flex items-center gap-3 font-bold '>
             <span className='ml-9'>Name</span>
           </div>
@@ -47,14 +47,16 @@ export function Leaderboard({
         {leaderboard.map((entry, index) => (
           <div
             key={index}
-            className='grid grid-cols-3 justify-center text-center px-6 py-2 '
+            className='grid grid-cols-3 justify-center items-center  py-2 '
           >
             <div className='flex items-center gap-3  '>
               <Image src={crownIcon} alt='crown' className='w-6 h-6' />
               <span className='text-sm lg:text-lg'>{entry.username}</span>
             </div>
-            <span className='text-sm lg:text-lg font-bold'>{entry.score}</span>
-            <span className='text-sm lg:text-lg font-bold'>
+            <span className='text-sm lg:text-lg font-bold text-center'>
+              {entry.score}
+            </span>
+            <span className='text-sm lg:text-lg font-bold text-center'>
               {entry.timeSpent}s
             </span>
           </div>
