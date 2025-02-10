@@ -87,11 +87,20 @@ export async function GET(request: Request) {
     const topic = searchParams.get("topic");
     const difficulty = searchParams.get("difficulty");
     const questionCount = searchParams.get("questionCount");
+    const studentName = searchParams.get("studentName");
 
     const where: any = {};
     if (topic) where.topic = topic;
     if (difficulty) where.difficulty = difficulty;
     if (questionCount) where.questionCount = parseInt(questionCount);
+    if (studentName) {
+      where.user = {
+        name: {
+          contains: studentName,
+          mode: "insensitive",
+        },
+      };
+    }
 
     const scores = await prisma.score.findMany({
       where,

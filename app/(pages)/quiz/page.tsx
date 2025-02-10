@@ -200,13 +200,25 @@ export default function Page() {
       interval = setInterval(() => {
         setTimer((prev) => {
           if (prev <= 1) {
-            if (currentQuestion + 1 < questions.length) {
-              setCurrentQuestion(currentQuestion + 1);
-              return getTimerByDifficulty();
-            } else {
-              submitScore(score);
-              return 0;
-            }
+            // Show correct answer when timer ends
+            setShowCorrectAnswer(true);
+            setIsTimerPaused(true);
+
+            // Wait 3 seconds before moving to next question
+            setTimeout(() => {
+              setShowCorrectAnswer(false);
+              setIsTimerPaused(false);
+              if (currentQuestion + 1 < questions.length) {
+                setCurrentQuestion(currentQuestion + 1);
+                setTimer(getTimerByDifficulty());
+                return getTimerByDifficulty();
+              } else {
+                submitScore(score);
+                return 0;
+              }
+            }, 3000);
+
+            return 0;
           }
           return prev - 1;
         });

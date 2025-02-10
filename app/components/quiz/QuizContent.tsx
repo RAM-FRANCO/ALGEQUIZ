@@ -41,12 +41,21 @@ export function QuizContent({
           </div>
           <div>
             {questions[currentQuestion].options.map((option, index) => {
-              const bgColors = [
-                "primary",
-                "primary_1",
-                "primary_2",
-                "primary_3",
-              ];
+              const getBackgroundColor = (index: number) => {
+                switch (index) {
+                  case 0:
+                    return "bg-primary";
+                  case 1:
+                    return "bg-primary_1";
+                  case 2:
+                    return "bg-primary_2";
+                  case 3:
+                    return "bg-primary_3";
+                  default:
+                    return "bg-primary";
+                }
+              };
+
               return (
                 <button
                   key={index}
@@ -55,8 +64,8 @@ export function QuizContent({
                         ${
                           showCorrectAnswer &&
                           option === questions[currentQuestion].answer
-                            ? "bg-primary_yellow "
-                            : `bg-${bgColors[index]}`
+                            ? "bg-primary_yellow"
+                            : getBackgroundColor(index)
                         }
                         ${showCorrectAnswer ? "cursor-not-allowed" : ""}
                         ${
@@ -64,7 +73,6 @@ export function QuizContent({
                             ? "border-2 border-secondary"
                             : "border border-transparent"
                         }
-                        
                     `}
                   disabled={isSubmitting || showCorrectAnswer}
                 >

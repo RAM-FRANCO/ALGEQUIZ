@@ -6,6 +6,7 @@ interface ScoreFilters {
   topic: string;
   difficulty: string;
   questionCount: string;
+  studentName: string;
 }
 
 interface Score {
@@ -25,8 +26,11 @@ export default function ScoresOverview() {
     topic: "",
     difficulty: "",
     questionCount: "",
+    studentName: "",
   });
   const [loading, setLoading] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const rowsPerPage = 10;
   const [sortConfig, setSortConfig] = useState<{
     key: keyof Score | null;
     direction: "asc" | "desc" | null;
@@ -42,6 +46,8 @@ export default function ScoresOverview() {
           queryParams.append("difficulty", filters.difficulty);
         if (filters.questionCount)
           queryParams.append("questionCount", filters.questionCount);
+        if (filters.studentName)
+          queryParams.append("studentName", filters.studentName);
 
         const response = await fetch(`/api/scores?${queryParams.toString()}`);
         const data = await response.json();
@@ -78,12 +84,29 @@ export default function ScoresOverview() {
     return sortConfig.direction === "asc" ? "↑" : "↓";
   };
 
+  const indexOfLastRow = currentPage * rowsPerPage;
+  const indexOfFirstRow = indexOfLastRow - rowsPerPage;
+  const currentRows = scores.slice(indexOfFirstRow, indexOfLastRow);
+  const totalPages = Math.ceil(scores.length / rowsPerPage);
+
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
+
   return (
     <div className='p-10 space-y-5'>
       {" "}
       <h1 className='text-2xl font-bold mb-6'>Scores Overview</h1>
       {/* Filters */}
       <div className='grid grid-cols-3 gap-4 mb-6'>
+        <input
+          type='text'
+          placeholder='Search by student name'
+          className='border rounded p-2'
+          value={filters.studentName}
+          onChange={(e) =>
+            setFilters({ ...filters, studentName: e.target.value })
+          }
+        />
+
         <select
           className='border rounded p-2'
           value={filters.topic}
@@ -186,7 +209,7 @@ export default function ScoresOverview() {
               </tr>
             </thead>
             <tbody className='bg-white divide-y divide-gray-200'>
-              {scores.map((score) => (
+              {currentRows.map((score) => (
                 <tr key={score.id}>
                   <td className='px-6 py-4 whitespace-nowrap'>
                     {score.studentNumber}
@@ -210,6 +233,28 @@ export default function ScoresOverview() {
               ))}
             </tbody>
           </table>
+
+          <div className='px-6 py-4 flex justify-between items-center border-t'>
+            <button
+              onClick={() => paginate(currentPage - 1)}
+              disabled={currentPage === 1}
+              className='px-3 py-1 rounded border disabled:opacity-50'
+            >
+              Previous
+            </button>
+            <span>
+              Page {currentPage} of {totalPages}
+            </span>
+            <button
+              onClick={() => paginate(currentPage + 1)}
+              disabled={currentPage === totalPages}
+              className={`px-3 py-1 rounded border disabled:opacity-50 ${
+                currentPage === totalPages ? "" : "bg-blue-500 text-white"
+              }`}
+            >
+              Next
+            </button>
+          </div>
         </div>
       )}
     </div>

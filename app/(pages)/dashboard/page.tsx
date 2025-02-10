@@ -19,9 +19,9 @@ export default function DashboardPage() {
   };
 
   return (
-    <div className='flex h-screen bg-white w-full'>
+    <div className='flex bg-white w-full '>
       {/* Sidebar */}
-      <div className='w-64 bg-gray-100 h-full p-4 flex flex-col'>
+      <div className='w-64 bg-gray-100 p-4 flex flex-col  '>
         <h2 className='text-xl font-bold mb-6'>Dashboard</h2>
         <div className='space-y-2'>
           <button
@@ -55,7 +55,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Main Content */}
-      <div className='flex-1 p-6'>
+      <div className='flex-1 p-6 h-screen overflow-y-scroll'>
         {activeTab === "students" ? <StudentsList /> : <ScoresOverview />}
       </div>
 
