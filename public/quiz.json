@@ -318,7 +318,7 @@
           {
             "question": "A diver is 60 meters from the ocean surface. He descends 35 meters more. What is his total distance from the surface down to his current depth?",
             "options": ["-95 meters", "-25 meters", "25 meters", "95 meters"],
-            "answer": "-95 meters"
+            "answer": "95 meters"
           },
           {
             "question": "The temperature is -8°C in the morning. It increases by 15°C by evening. What is the temperature now?",
@@ -363,12 +363,12 @@
           {
             "question": "A bank account starts with Php 500,000.00. Then, a withdrawal of Php 750,000.00 is made, followed by a deposit of Php 300,000.00. What is the final balance?",
             "options": [
-              "Php 1,250.00",
-              "Php 500.00",
-              "Php 50.00",
-              "Php 1,550.00"
+              "Php 5,000.00",
+              "Php 5,000.00",
+              "Php 50,000.00",
+              "Php 500.00"
             ],
-            "answer": "Php 50.00"
+            "answer": "Php 50,000.00"
           },
           {
             "question": "A hiker starts at -80 meters. She ascends 130 meters and then descends 60 meters. What is her final position?",
@@ -385,8 +385,8 @@
             "options": [
               "Php 50 gain",
               "Php 50 loss",
-              "Php 1,950 gain",
-              "Php 1,950 loss"
+              "Php 950 gain",
+              "Php 950 loss"
             ],
             "answer": "Php 950 loss"
           },
@@ -424,7 +424,7 @@
             "question": "A stock drops by Php 250, increases by Php 400, and then drops by Php 300 again. What is the total change?",
             "options": [
               "Php 15 increase",
-              "Php 15 decrease",
+              "Php 150 decrease",
               "Php 50 increase",
               "Php 50 decrease"
             ],
@@ -432,8 +432,8 @@
           },
           {
             "question": "A person owes Php 800 to one lender, Php 500 to another, and Php 300 to a third. They pay back Php 900 in total. What is their remaining debt?",
-            "options": ["Php 1,600", "-Php 1,300", "Php 300", "Php 1,300"],
-            "answer": "Php 700"
+            "options": ["-Php 700.00", "Php 700.00", "Php 300", "-Php 300"],
+            "answer": "-Php 700.00"
           },
           {
             "question": "The temperature is 5°C. It drops by 8°C and then rises by 12°C. What is the final temperature?",
@@ -473,7 +473,7 @@
           {
             "question": "A family spends Php 2,500 on rent, Php 800 on groceries, and Php 600 on utilities but receives a bonus of Php 1,500. What is the net expense?",
             "options": ["Php 2,400", "-Php 2,400", "Php 3,900", "-Php 3,900"],
-            "answer": "-Php 2,400"
+            "answer": "Php 2,400"
           },
           {
             "question": "A warehouse starts with 5,000 items. It ships out 2,750 items and receives shipments of 1,200 items. How many items are left?",
@@ -533,10 +533,10 @@
           {
             "question": "Find the missing value: ___ - (-10) = -42",
             "options": ["-52", "32", "-32", "52"],
-            "answer": "-32"
+            "answer": "-52"
           },
           {
-            "question": "Find the value of 19 – 23.",
+            "question": "Find the value of 19 - 23.",
             "options": ["5", "-4", "-3", "4"],
             "answer": "-4"
           },
@@ -548,7 +548,7 @@
           {
             "question": "Complete the following term: -112 - ___ = -147",
             "options": ["-75", "-35", "35", "45"],
-            "answer": "-35"
+            "answer": "35"
           },
           {
             "question": "___ - 7 = -27",
@@ -563,7 +563,7 @@
           {
             "question": "127 – 12 = ___",
             "options": ["112", "117", "115", "-114"],
-            "answer": "115"
+            "answer": "112"
           },
           {
             "question": "Find the difference of 347 – 164.",
@@ -603,7 +603,7 @@
           {
             "question": "___ - (-5) = -9",
             "options": ["4", "-4", "14", "-14"],
-            "answer": "-4"
+            "answer": "-14"
           },
           {
             "question": "-12 - ___ = 0",
@@ -622,8 +622,8 @@
           },
           {
             "question": "-7 - ___ = -12",
-            "options": ["2", "3", "4", "5"],
-            "answer": "-5"
+            "options": ["5", "3", "4", "2"],
+            "answer": "5"
           },
           {
             "question": "30 – 21 = ?",
@@ -638,7 +638,7 @@
               "same/greater",
               "addition/greater"
             ],
-            "answer": "same/greater"
+            "answer": "different/greater"
           },
           {
             "question": "When the subtrahend is negative, change the subtraction sign to ______.",
@@ -737,7 +737,7 @@
           },
           {
             "question": "What is the result of: -11 - (-3) - 22?",
-            "options": ["-26", "43", "30", "20"],
+            "options": ["-26", "43", "-30", "20"],
             "answer": "-30"
           },
           {
@@ -762,7 +762,7 @@
           },
           {
             "question": "What is the difference between 88 - (-20) - 34?",
-            "options": ["74", "73", "-73", "74"],
+            "options": ["74", "73", "-73", "-74"],
             "answer": "74"
           },
           {
@@ -773,7 +773,7 @@
           {
             "question": "What is 0 - __ - (-8) = -4",
             "options": ["-12", "-13", "-3", "12"],
-            "answer": "12"
+            "answer": "-12"
           },
           {
             "question": "What is the difference between -4 - (-12) - (-26)?",
@@ -787,7 +787,7 @@
           },
           {
             "question": "Solve: 11 - (-40) - __ = -59",
-            "options": ["20", "55", "40", "30"],
+            "options": ["110", "-110", "108", "-108"],
             "answer": "110"
           },
           {
@@ -817,7 +817,7 @@
           },
           {
             "question": "Solve: -2 - 5 - __ = -11",
-            "options": ["-1", "-2", "-9", "-4"],
+            "options": ["-1", "-2", "-9", "4"],
             "answer": "4"
           },
           {
@@ -1489,7 +1489,7 @@
             "question": "A submarine descends -80 meters per minute for 14 minutes. What is the total depth?",
             "options": [
               "-1,100 meters",
-              "-1,200 meters",
+              "-1,120 meters",
               "-1,150 meters",
               "-1,300 meters"
             ],
@@ -1722,7 +1722,7 @@
           },
           {
             "question": "Solve 6 ÷ __ = 2",
-            "options": ["-8", "8", "6", "-6"],
+            "options": ["-3", "3", "6", "-6"],
             "answer": "3"
           },
           {
@@ -1801,8 +1801,8 @@
             "answer": "-10"
           },
           {
-            "question": "What is (−125) ÷ (−25) ÷ (−5)?",
-            "options": ["−1", "1", "5", "−5"],
+            "question": "What is (-125) ÷ (−25) ÷ (−5)?",
+            "options": ["-1", "1", "5", "−5"],
             "answer": "-1"
           },
           {
@@ -1811,18 +1811,18 @@
             "answer": "4"
           },
           {
-            "question": "Simplify (−300) ÷ (−15) ÷ (−3) ÷5",
-            "options": ["−4", "4", "20", "−20"],
-            "answer": "-4"
+            "question": "Simplify (−300) ÷ (−15)  ÷5",
+            "options": ["-4", "4", "20", "-20"],
+            "answer": "4"
           },
           {
-            "question": "Solve 200÷ (−10) ÷4÷ (−2)",
-            "options": ["10", "−10", "20", "−20"],
-            "answer": "-10"
+            "question": "Solve 200 ÷ (−10) ÷ 4",
+            "options": ["5", "-5", "20", "−20"],
+            "answer": "-5"
           },
           {
             "question": "Find the quotient of (−84) ÷7÷ (−2) ÷ (−3)",
-            "options": ["2", "−2", "12", "−12"],
+            "options": ["-2", "2", "12", "-12"],
             "answer": "-2"
           },
           {
@@ -1868,7 +1868,7 @@
           {
             "question": "Evaluate 120÷ (−6) ÷ (−2) ÷ (−2)",
             "options": ["−5", "5", "10", "−10"],
-            "answer": "5"
+            "answer": "-5"
           },
           {
             "question": "What is the quotient of (−144) ÷ (−12) ÷2?",
