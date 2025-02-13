@@ -556,47 +556,47 @@
             "answer": "-20"
           },
           {
-            "question": "What is the difference between (-8) – 10?",
+            "question": "What is the difference between (-8) - 10?",
             "options": ["2", "18", "-2", "-18"],
             "answer": "-18"
           },
           {
-            "question": "127 – 12 = ___",
+            "question": "127 - 12 = ___",
             "options": ["112", "117", "115", "-114"],
             "answer": "112"
           },
           {
-            "question": "Find the difference of 347 – 164.",
+            "question": "Find the difference of 347 - 164.",
             "options": ["-183", "-138", "183", "138"],
             "answer": "183"
           },
           {
-            "question": "(-3) – (-4) = ___",
+            "question": "(-3) - (-4) = ___",
             "options": ["-7", "7", "1", "-1"],
             "answer": "1"
           },
           {
-            "question": "19 – (-7) = ?",
+            "question": "19 - (-7) = ?",
             "options": ["-12", "26", "-26", "12"],
             "answer": "26"
           },
           {
-            "question": "Complete the following term: -60 – 54 = ___",
+            "question": "Complete the following term: -60 - 54 = ___",
             "options": ["-114", "141", "0", "114"],
             "answer": "-114"
           },
           {
-            "question": "(-10) – 12 = ?",
+            "question": "(-10) - 12 = ?",
             "options": ["-22", "2", "-2", "22"],
             "answer": "-22"
           },
           {
-            "question": "Perform the operation (-21) – (-5).",
+            "question": "Perform the operation (-21) - (-5).",
             "options": ["16", "25", "-16", "-25"],
             "answer": "-16"
           },
           {
-            "question": "What is 11 – (-5)?",
+            "question": "What is 11 - (-5)?",
             "options": ["-6", "6", "16", "10"],
             "answer": "16"
           },
@@ -626,7 +626,7 @@
             "answer": "5"
           },
           {
-            "question": "30 – 21 = ?",
+            "question": "30 - 21 = ?",
             "options": ["3", "6", "9", "12"],
             "answer": "9"
           },
@@ -646,32 +646,32 @@
             "answer": "addition"
           },
           {
-            "question": "Solve: 8 – (-5) = ___",
+            "question": "Solve: 8 - (-5) = ___",
             "options": ["3", "-3", "-13", "13"],
             "answer": "13"
           },
           {
-            "question": "Solve: 6 – 19 = ___",
+            "question": "Solve: 6 - 19 = ___",
             "options": ["-13", "13", "15", "-15"],
             "answer": "-13"
           },
           {
-            "question": "Solve: -11 – (-4) = ___",
+            "question": "Solve: -11 - (-4) = ___",
             "options": ["-7", "7", "-15", "15"],
             "answer": "-7"
           },
           {
-            "question": "Find the difference of 42 – 96.",
+            "question": "Find the difference of 42 - 96.",
             "options": ["45", "54", "-54", "-45"],
             "answer": "-54"
           },
           {
-            "question": "What is the difference between (-61) – (-14)?",
+            "question": "What is the difference between (-61) - (-14)?",
             "options": ["-7", "-47", "-44", "-74"],
             "answer": "-47"
           },
           {
-            "question": "What is the difference between 183 – 157?",
+            "question": "What is the difference between 183 - 157?",
             "options": ["39", "28", "17", "26"],
             "answer": "26"
           },
@@ -691,7 +691,7 @@
         "level": "Average",
         "questions": [
           {
-            "question": "What is the result of: 5 - (-3) – 7 - 14?",
+            "question": "What is the result of: 5 - (-3) - 7 - 14?",
             "options": ["-1", "13", "-3", "-13"],
             "answer": "-13"
           },
@@ -1181,152 +1181,152 @@
         "level": "Average",
         "questions": [
           {
-            "question": "Perform the operation: 4 x (−2) x 3.",
+            "question": "Perform the operation: 4 x (-2) x 3.",
             "options": ["-24", "24", "-12", "12"],
             "answer": "-24"
           },
           {
-            "question": "What is the result of (−5) x 6 x (−3)?",
+            "question": "What is the result of (-5) x 6 x (-3)?",
             "options": ["90", "-90", "60", "-60"],
             "answer": "90"
           },
           {
-            "question": "Find the product of 7 x (−8) x 2.",
+            "question": "Find the product of 7 x (-8) x 2.",
             "options": ["-112", "112", "-14", "14"],
             "answer": "-112"
           },
           {
-            "question": "Calculate (−6) x 5 x 4.",
+            "question": "Calculate (-6) x 5 x 4.",
             "options": ["-120", "120", "-100", "100"],
             "answer": "-120"
           },
           {
-            "question": "What is the result of 9 x (−3) x (−2)?",
+            "question": "What is the result of 9 x (-3) x (-2)?",
             "options": ["54", "-54", "18", "-18"],
             "answer": "54"
           },
           {
-            "question": "Multiply 3 x (−7) x 5.",
+            "question": "Multiply 3 x (-7) x 5.",
             "options": ["-70", "105", "-105", "70"],
             "answer": "-105"
           },
           {
-            "question": "Find the product of (−4) x 10 x (−3).",
+            "question": "Find the product of (-4) x 10 x (-3).",
             "options": ["-120", "120", "40", "-40"],
             "answer": "120"
           },
           {
-            "question": "What is the result of 8 x (−6) x 3?",
+            "question": "What is the result of 8 x (-6) x 3?",
             "options": ["-144", "144", "-48", "48"],
             "answer": "-144"
           },
           {
-            "question": "Perform the operation: 2 x (−9) x 7.",
+            "question": "Perform the operation: 2 x (-9) x 7.",
             "options": ["-162", "126", "-162", "-126"],
             "answer": "-126"
           },
           {
-            "question": "What do you get if you multiply (−3) x 6 x (−4)?",
+            "question": "What do you get if you multiply (-3) x 6 x (-4)?",
             "options": ["-72", "72", "-48", "48"],
             "answer": "72"
           },
           {
-            "question": "What is the result of 5 × 6 × (−2)?",
+            "question": "What is the result of 5 x 6 x (-2)?",
             "options": ["-30", "60", "-60", "30"],
             "answer": "-60"
           },
           {
-            "question": "Multiply 10 × (−2) × 3.",
+            "question": "Multiply 10 x (-2) x 3.",
             "options": ["-60", "60", "-30", "30"],
             "answer": "-60"
           },
           {
-            "question": "Calculate (−5) × (−8) × 2.",
+            "question": "Calculate (-5) x (-8) x 2.",
             "options": ["-80", "40", "-40", "80"],
             "answer": "80"
           },
           {
-            "question": "Find the product of 7 × 3 × 4.",
+            "question": "Find the product of 7 x 3 x 4.",
             "options": ["-84", "84", "-56", "56"],
             "answer": "84"
           },
           {
-            "question": "What do you get if you multiply (−6) × (-4) × 5?",
+            "question": "What do you get if you multiply (-6) x (-4) x 5?",
             "options": ["-120", "120", "-30", "3"],
             "answer": "120"
           },
           {
-            "question": "Perform the operation: 12 × (−3) × (−2).",
+            "question": "Perform the operation: 12 x (-3) x (-2).",
             "options": ["72", "-72", "24", "-24"],
             "answer": "72"
           },
           {
-            "question": "What is the result of (−2) × 6 × (−5)?",
+            "question": "What is the result of (-2) x 6 x (-5)?",
             "options": ["60", "-60", "30", "-30"],
             "answer": "60"
           },
           {
-            "question": "Multiply 9 × (−4) × 5.",
+            "question": "Multiply 9 x (-4) x 5.",
             "options": ["-45", "180", "-180", "45"],
             "answer": "-180"
           },
           {
-            "question": "Find the product of (-6) × (−7) × (-2).",
+            "question": "Find the product of (-6) x (-7) x (-2).",
             "options": ["35", "84", "-35", "-84"],
             "answer": "-84"
           },
           {
-            "question": "What is the result of multiplying (−3) × 8 × (−2)?",
+            "question": "What is the result of multiplying (-3) x 8 x (-2)?",
             "options": ["-48", "48", "-24", "24"],
             "answer": "48"
           },
           {
-            "question": "Perform the operation: 4 × 6 × (−9).",
+            "question": "Perform the operation: 4 x 6 x (-9).",
             "options": ["-216", "216", "-54", "54"],
             "answer": "-216"
           },
           {
-            "question": "Calculate the product of (−8) × (−7) × 2.",
+            "question": "Calculate the product of (-8) x (-7) x 2.",
             "options": ["112", "-112", "80", "-80"],
             "answer": "112"
           },
           {
-            "question": "What do you get if you multiply (−3) × (−6) × (−4)?",
+            "question": "What do you get if you multiply (-3) x (-6) x (-4)?",
             "options": ["48", "72", "-48", "-72"],
             "answer": "-72"
           },
           {
-            "question": "What is the result of 5 × (−2) × 10?",
+            "question": "What is the result of 5 x (-2) x 10?",
             "options": ["-100", "100", "-50", "50"],
             "answer": "-100"
           },
           {
-            "question": "Perform the operation: (−9) × 3 × (−2).",
+            "question": "Perform the operation: (-9) x 3 x (-2).",
             "options": ["36", "-54", "54", "-36"],
             "answer": "54"
           },
           {
-            "question": "What is the product of 10 × (−4) × 5.",
+            "question": "What is the product of 10 x (-4) x 5.",
             "options": ["-100", "200", "-200", "100"],
             "answer": "-200"
           },
           {
-            "question": "Multiply 11 × (−3) × (−2).",
+            "question": "Multiply 11 x (-3) x (-2).",
             "options": ["-66", "66", "-33", "33"],
             "answer": "66"
           },
           {
-            "question": "What is the result of 8 × 4 × 5?",
+            "question": "What is the result of 8 x 4 x 5?",
             "options": ["-160", "160", "-40", "40"],
             "answer": "160"
           },
           {
-            "question": "Perform the operation: (−6) × (−3) × 2.",
+            "question": "Perform the operation: (-6) x (-3) x 2.",
             "options": ["-36", "18", "-18", "36"],
             "answer": "36"
           },
           {
-            "question": "Find the product of 12 × 5 × 4.",
+            "question": "Find the product of 12 x 5 x 4.",
             "options": ["-240", "60", "-60", "240"],
             "answer": "240"
           }
@@ -1489,11 +1489,11 @@
             "question": "A submarine descends -80 meters per minute for 14 minutes. What is the total depth?",
             "options": [
               "-1,100 meters",
-              "-1,120 meters",
+              "-1,200 meters",
               "-1,150 meters",
               "-1,300 meters"
             ],
-            "answer": "-1,120 meters"
+            "answer": "-1,200 meters"
           },
           {
             "question": "A spacecraft moves -1,500 km/h for 6 hours. What is the total distance covered?",
@@ -1596,17 +1596,17 @@
             "answer": "5"
           },
           {
-            "question": "Solve −12 ÷ 3 =?",
+            "question": "Solve -12 ÷ 3 = ?",
             "options": ["-4", "-6", "-3", "-2"],
             "answer": "-4"
           },
           {
-            "question": "Find the quotient 15 ÷ −5 =?",
+            "question": "Find the quotient 15 ÷ -5 =?",
             "options": ["2", "-3", "4", "-2"],
             "answer": "-3"
           },
           {
-            "question": "Evaluate −16 ÷ −4 = ?",
+            "question": "Evaluate -16 ÷ -4 = ?",
             "options": ["4", "-4", "5", "-5"],
             "answer": "4"
           },
@@ -1616,7 +1616,7 @@
             "answer": "5"
           },
           {
-            "question": "What is the quotient of −30 ÷ 6 = ?",
+            "question": "What is the quotient of -30 ÷ 6 = ?",
             "options": ["-5", "-4", "-6", "-3"],
             "answer": "-5"
           },
@@ -1626,7 +1626,7 @@
             "answer": "2"
           },
           {
-            "question": "Evaluate −25 ÷ −5 = ?",
+            "question": "Evaluate -25 ÷ -5 = ?",
             "options": ["-5", "5", "-4", "4"],
             "answer": "5"
           },
@@ -1636,17 +1636,17 @@
             "answer": "2"
           },
           {
-            "question": "Perform the indicated operation −40 ÷ 8 = ?",
+            "question": "Perform the indicated operation -40 ÷ 8 = ?",
             "options": ["-5", "-4", "-3", "-6"],
             "answer": "-5"
           },
           {
-            "question": "What is the result of 6 ÷ −2 = ?",
+            "question": "What is the result of 6 ÷ -2 = ?",
             "options": ["2", "-2", "-3", "3"],
             "answer": "-3"
           },
           {
-            "question": "Find the quotient of −14 ÷ 7 = ?",
+            "question": "Find the quotient of -14 ÷ 7 = ?",
             "options": ["-2", "-3", "2", "3"],
             "answer": "-2"
           },
@@ -1656,17 +1656,17 @@
             "answer": "7"
           },
           {
-            "question": "What is the quotient of −27 ÷ −3 = ?",
+            "question": "What is the quotient of -27 ÷ -3 = ?",
             "options": ["-9", "9", "-8", "8"],
             "answer": "9"
           },
           {
-            "question": "Find the result of 30 ÷ −6 = ?",
+            "question": "Find the result of 30 ÷ -6 = ?",
             "options": ["-5", "-4", "-3", "-6"],
             "answer": "-5"
           },
           {
-            "question": "Solve __ ÷ 6 = −6",
+            "question": "Solve __ ÷ 6 = -6",
             "options": ["-36", "36", "-30", "30"],
             "answer": "-36"
           },
@@ -1686,7 +1686,7 @@
             "answer": "4"
           },
           {
-            "question": "Evaluate __ ÷ 3 = −6",
+            "question": "Evaluate __ ÷ 3 = -6",
             "options": ["18", "-18", "-15", "15"],
             "answer": "-18"
           },
@@ -1696,7 +1696,7 @@
             "answer": "9"
           },
           {
-            "question": "Solve __ ÷ 8 = −3",
+            "question": "Solve __ ÷ 8 = -3",
             "options": ["24", "-24", "16", "-16"],
             "answer": "-24"
           },
@@ -1706,17 +1706,17 @@
             "answer": "7"
           },
           {
-            "question": "Find the result of __ ÷ − 4 = 8",
+            "question": "Find the result of __ ÷ - 4 = 8",
             "options": ["32", "-32", "28", "-28"],
             "answer": "-32"
           },
           {
-            "question": "What is the result of 8 ÷ __ = −4",
+            "question": "What is the result of 8 ÷ __ = -4",
             "options": ["2", "-2", "4", "-4"],
             "answer": "-2"
           },
           {
-            "question": "Calculate __ ÷ 6 = −8",
+            "question": "Calculate __ ÷ 6 = -8",
             "options": ["48", "-48", "42", "-42"],
             "answer": "-48"
           },
@@ -1726,7 +1726,7 @@
             "answer": "3"
           },
           {
-            "question": "What is the value of __÷ −5 = 7",
+            "question": "What is the value of __÷ -5 = 7",
             "options": ["-35", "35", "-30", "30"],
             "answer": "-35"
           },
@@ -1736,7 +1736,7 @@
             "answer": "10"
           },
           {
-            "question": "What is the missing term __ ÷9 = −6",
+            "question": "What is the missing term __ ÷9 = -6",
             "options": ["-54", "54", "-45", "45"],
             "answer": "-54"
           }
@@ -1746,154 +1746,154 @@
         "level": "Average",
         "questions": [
           {
-            "question": "Evaluate the expression: 48÷ (−8) ÷2",
-            "options": ["3", "−3", "6", "−6"],
+            "question": "Evaluate the expression: 48÷ (-8) ÷2",
+            "options": ["3", "-3", "6", "-6"],
             "answer": "-3"
           },
           {
-            "question": "Simplify the division: (−120) ÷6÷ (−5)",
-            "options": ["6", "4", "−4", "−6"],
+            "question": "Simplify the division: (-120) ÷6÷ (-5)",
+            "options": ["6", "4", "-4", "-6"],
             "answer": "4"
           },
           {
-            "question": "What is the result of (−90) ÷ (−3) ÷5?",
-            "options": ["6", "−6", "3", "−3"],
+            "question": "What is the result of (-90) ÷ (-3) ÷5?",
+            "options": ["6", "-6", "3", "-3"],
             "answer": "6"
           },
           {
-            "question": "Find the value of 144÷ (−12) ÷ (−3)",
-            "options": ["4", "−4", "−12", "12"],
+            "question": "Find the value of 144÷ (-12) ÷ (-3)",
+            "options": ["4", "-4", "-12", "12"],
             "answer": "4"
           },
           {
-            "question": "Solve: (−72) ÷ 8÷ (−2)",
-            "options": ["−9", "9", "18", "−18"],
-            "answer": "−9"
+            "question": "Solve: (-72) ÷ 8 ÷ 1",
+            "options": ["-9", "9", "18", "-18"],
+            "answer": "-9"
           },
           {
-            "question": "Determine the answer: (−180) ÷ (−9) ÷2÷5",
-            "options": ["−2", "2", "−20", "20"],
+            "question": "Determine the answer: (-180) ÷ (-9) ÷2÷5",
+            "options": ["-2", "2", "-20", "20"],
             "answer": "2"
           },
           {
-            "question": "Evaluate: 64 ÷ (−4) ÷ (−2) ÷2",
-            "options": ["−4", "16", "4", "−8"],
+            "question": "Evaluate: 64 ÷ (-4) ÷ (-2) ÷2",
+            "options": ["-4", "16", "4", "-8"],
             "answer": "4"
           },
           {
-            "question": "What is the quotient of (−240) ÷12÷ (−5) ÷2",
-            "options": ["−2", "2", "10", "−10"],
+            "question": "What is the quotient of (-240) ÷12÷ (-5) ÷2",
+            "options": ["-2", "2", "10", "-10"],
             "answer": "2"
           },
           {
-            "question": "Simplify the expression:108÷ (−6) ÷ (−3) ÷2",
-            "options": ["6", "3", "−3", "−6"],
+            "question": "Simplify the expression:108÷ (-6) ÷ (-3) ÷2",
+            "options": ["6", "3", "-3", "-6"],
             "answer": "3"
           },
           {
-            "question": "Solve the expression:(−96) ÷ (−8) ÷2÷ (−2)",
-            "options": ["−3", "3", "−6", "6"],
-            "answer": "3"
+            "question": "Solve the expression:(-96) ÷ (-8) ÷2÷ (-2)",
+            "options": ["-3", "3", "-6", "6"],
+            "answer": "-3"
           },
           {
-            "question": "Find the result of 100÷ (−5) ÷2",
-            "options": ["10", "−10", "−20", "20"],
+            "question": "Find the result of 100 ÷ (-5) ÷2",
+            "options": ["10", "-10", "-20", "20"],
             "answer": "-10"
           },
           {
-            "question": "What is (-125) ÷ (−25) ÷ (−5)?",
-            "options": ["-1", "1", "5", "−5"],
+            "question": "What is (-125) ÷ (-25) ÷ (-5)?",
+            "options": ["-1", "1", "5", "-5"],
             "answer": "-1"
           },
           {
-            "question": "Evaluate 256÷ (−16) ÷ (−4)",
-            "options": ["−4", "16", "8", "4"],
+            "question": "Evaluate 256 ÷ (-16) ÷ (-4)",
+            "options": ["-4", "16", "8", "4"],
             "answer": "4"
           },
           {
-            "question": "Simplify (−300) ÷ (−15)  ÷5",
+            "question": "Simplify (-300) ÷ (-15) ÷ 5",
             "options": ["-4", "4", "20", "-20"],
             "answer": "4"
           },
           {
-            "question": "Solve 200 ÷ (−10) ÷ 4",
-            "options": ["5", "-5", "20", "−20"],
+            "question": "Solve 200 ÷ (-10) ÷ 4",
+            "options": ["5", "-5", "20", "-20"],
             "answer": "-5"
           },
           {
-            "question": "Find the quotient of (−84) ÷7÷ (−2) ÷ (−3)",
+            "question": "Find the quotient of (-84) ÷7 ÷ (-2) ÷ (-3)",
             "options": ["-2", "2", "12", "-12"],
             "answer": "-2"
           },
           {
-            "question": "Calculate the result: 216÷ (−9) ÷6÷ (−4)",
-            "options": ["1", "−1", "6", "−6"],
+            "question": "Calculate the result: 216÷ (-9) ÷6÷ (-4)",
+            "options": ["1", "-1", "6", "-6"],
             "answer": "1"
           },
           {
-            "question": "What is the value of (−180) ÷10÷ (−3) ÷3",
-            "options": ["−2", "2", "10", "−10"],
+            "question": "What is the value of (-180) ÷10÷ (-3) ÷3",
+            "options": ["-2", "2", "10", "-10"],
             "answer": "2"
           },
           {
-            "question": "Evaluate 150÷ (−5) ÷3÷ (−2)",
-            "options": ["−5", "5", "−5", "10"],
+            "question": "Evaluate 150 ÷ (-5) ÷3÷ (-2)",
+            "options": ["-5", "5", "-5", "10"],
             "answer": "5"
           },
           {
-            "question": "Solve (−72) ÷ (−6) ÷ (−2) ÷ (−2)",
-            "options": ["−3", "3", "−6", "6"],
+            "question": "Solve (-72) ÷ (-6) ÷ (-2) ÷ (-2)",
+            "options": ["-3", "3", "-6", "6"],
             "answer": "3"
           },
           {
-            "question": "Calculate 360÷ (−12) ÷ (-5) ÷ 3",
-            "options": ["2", "2", "−2", "−10"],
+            "question": "Calculate 360÷ (-12) ÷ (-5) ÷ 3",
+            "options": ["2", "10", "-2", "-10"],
             "answer": "2"
           },
           {
-            "question": "What is the result of (−128) ÷ (−16) ÷ (−4) ÷ (−2)?",
-            "options": ["2", "−2", "1", "−1"],
+            "question": "What is the result of (-128) ÷ (-16) ÷ (-4) ÷ (-2)?",
+            "options": ["2", "-2", "1", "-1"],
             "answer": "1"
           },
           {
-            "question": "Find the quotient of 300÷ (−25) ÷ (−2) ÷6?",
-            "options": ["−1", "1", "−2", "2"],
+            "question": "Find the quotient of 300 ÷ (-25) ÷ (-2) ÷6?",
+            "options": ["-1", "1", "-2", "2"],
             "answer": "1"
           },
           {
-            "question": "Solve (−240) ÷15÷ (−4) ÷ (−2)",
-            "options": ["−4", "2", "−2", "4"],
-            "answer": "2"
+            "question": "Solve (-240) ÷15 ÷ (-4) ÷ (-2)",
+            "options": ["-4", "2", "-2", "4"],
+            "answer": "-2"
           },
           {
-            "question": "Evaluate 120÷ (−6) ÷ (−2) ÷ (−2)",
-            "options": ["−5", "5", "10", "−10"],
+            "question": "Evaluate 120 ÷ (-6) ÷ (-2) ÷ (-2)",
+            "options": ["-5", "5", "10", "-10"],
             "answer": "-5"
           },
           {
-            "question": "What is the quotient of (−144) ÷ (−12) ÷2?",
-            "options": ["6", "−6", "12", "−12"],
+            "question": "What is the quotient of (-144) ÷ (-12) ÷2?",
+            "options": ["6", "-6", "12", "-12"],
             "answer": "6"
           },
           {
-            "question": "Evaluate 360÷ (−9) ÷ 5÷ (−4)",
-            "options": ["−2", "2", "4", "−4"],
+            "question": "Evaluate 360÷ (-9) ÷ 5÷ (-4)",
+            "options": ["-2", "2", "4", "-4"],
             "answer": "2"
           },
           {
-            "question": "Simplify (−160) ÷ 10÷ (−4).",
-            "options": ["4", "−4", "8", "−8"],
+            "question": "Simplify (-160) ÷ 10÷ (-4).",
+            "options": ["4", "-4", "8", "-8"],
             "answer": "4"
           },
           {
-            "question": "Find the value of 450÷ (−15) ÷ (−3)",
-            "options": ["−10", "30", "10", "−30"],
+            "question": "Find the value of 450÷ (-15) ÷ (-3)",
+            "options": ["-10", "30", "10", "-30"],
             "answer": "10"
           },
           {
-            "question": "Solve (−216) ÷ (−6) ÷ (−3) ÷2",
-            "options": ["6", "−6", "−6", "12"],
-            "answer": "6"
+            "question": "Solve (-216) ÷ (-6) ÷ (-3) ÷2",
+            "options": ["6", "-6", "-6", "12"],
+            "answer": "-6"
           }
         ]
       },
@@ -1939,6 +1939,186 @@
               "6,000 items"
             ],
             "answer": "6,300 items"
+          },
+          {
+            "question": "A car manufacturer produces 18,000 vehicles per year. If the company operates 300 days each year and produces the same number of vehicles every day, how many vehicles does the company produce per day?",
+            "options": [
+              "60 vehicles",
+              "70 vehicles",
+              "75 vehicles",
+              "65 vehicles"
+            ],
+            "answer": "60 vehicles"
+          },
+          {
+            "question": "A tree planting organization plants 120,000 trees each year. If they plant the same number of trees every month, how many trees are planted each month?",
+            "options": [
+              "9,000 trees",
+              "10,000 trees",
+              "12,000 trees",
+              "14,000 trees"
+            ],
+            "answer": "10,000 trees"
+          },
+          {
+            "question": "A shipping company delivers 24,000 packages per week. If each delivery truck can carry 480 packages, how many trucks are needed to deliver all the packages in one week?",
+            "options": ["45 trucks", "50 trucks", "55 trucks", "60 trucks"],
+            "answer": "50 trucks"
+          },
+          {
+            "question": "A team of 18 workers can finish a project in 72 days. If the team works at the same rate, how many workers would be needed to finish the project in 36 days?",
+            "options": ["36 workers", "32 workers", "28 workers", "40 workers"],
+            "answer": "36 workers"
+          },
+          {
+            "question": "A bookstore receives 72,000 books per month. If each shelf can hold 40 books, how many shelves are required to display all the books received in a month?",
+            "options": [
+              "1,800 shelves",
+              "1,700 shelves",
+              "1,600 shelves",
+              "1,500 shelves"
+            ],
+            "answer": "1,800 shelves"
+          },
+          {
+            "question": "A chocolate factory produces 1,200 chocolate bars every hour. If the factory operates 20 hours a day, how many chocolate bars does the factory produce in a day?",
+            "options": [
+              "20,000 chocolate bars",
+              "22,000 chocolate bars",
+              "24,000 chocolate bars",
+              "25,000 chocolate bars"
+            ],
+            "answer": "24,000 chocolate bars"
+          },
+          {
+            "question": "A farmer harvested 24,000 kilograms of rice. If he wants to pack the rice into 150 bags equally, how many kilograms of rice will each bag contain?",
+            "options": ["150 kg", "160 kg", "170 kg", "180 kg"],
+            "answer": "160 kg"
+          },
+          {
+            "question": "A university enrolls 12,000 students each year. If the university divides students into 40 classes of equal size, how many students are in each class?",
+            "options": [
+              "300 students",
+              "350 students",
+              "400 students",
+              "450 students"
+            ],
+            "answer": "300 students"
+          },
+          {
+            "question": "A manufacturer produces 96,000 units of a product per month. If the company works 24 days a month and each worker produces 50 units per day, how many workers are required to produce all the units in one month?",
+            "options": ["60 workers", "70 workers", "80 workers", "90 workers"],
+            "answer": "80 workers"
+          },
+          {
+            "question": "A university enrolls 15,600 students each year. If the university divides students into 42 classes of equal size, how many students are in each class?",
+            "options": [
+              "360 students",
+              "371 students",
+              "380 students",
+              "385 students"
+            ],
+            "answer": "371 students"
+          },
+          {
+            "question": "A manufacturer produces 84,000 units of a product per month. If the company works 28 days per month and each worker produces 60 units per day, how many workers are required to produce all the units in one month?",
+            "options": ["45 workers", "50 workers", "55 workers", "60 workers"],
+            "answer": "50 workers"
+          },
+          {
+            "question": "A factory produces 31,500 units of a product every month. If the factory operates 25 days per month, how many units does the factory produce per day?",
+            "options": [
+              "1,200 units",
+              "1,260 units",
+              "1,300 units",
+              "1,350 units"
+            ],
+            "answer": "1,260 units"
+          },
+          {
+            "question": "Ninety-six people have been invited to a birthday party. The caterer is arranging the tables. Each table can accommodate 8 persons. How many tables are needed?",
+            "options": ["26 tables", "16 tables", "32 tables", "12 tables"],
+            "answer": "12 tables"
+          },
+          {
+            "question": "The library has 22,500 books. If the library wants to arrange them into 75 shelves, how many books will each shelf contain?",
+            "options": ["300 books", "320 books", "350 books", "375 books"],
+            "answer": "300 books"
+          },
+          {
+            "question": "A bus can hold 80 passengers. If there are 20 rows of seats in the bus, how many seats are in each row?",
+            "options": ["8 seats", "4 seats", "6 seats", "10 seats"],
+            "answer": "4 seats"
+          },
+          {
+            "question": "A construction company builds 8,400 houses every year. If the company works 260 days per year, how many houses does the company build each day?",
+            "options": ["30 houses", "32 houses", "34 houses", "36 houses"],
+            "answer": "32 houses"
+          },
+          {
+            "question": "Mico's scores during the Mathlympics Da Math Competition are as follows: +5, -8, -3, +13, +20 and -9. What was his average score?",
+            "options": ["9", "7", "3", "6"],
+            "answer": "3"
+          },
+          {
+            "question": "A submarine descends at a rate of -120 meters per minute. After 18 minutes, how many meters has it descended?",
+            "options": [
+              "-2,160 meters",
+              "2,160 meters",
+              "-1,080 meters",
+              "1,080 meters"
+            ],
+            "answer": "-2,160 meters"
+          },
+          {
+            "question": "Fe baked 200 cookies on the first day, 140 on the second day and an additional 150 cookies on the third day. She divided them equally into packs containing 14 cookies per pack and sold each pack for Php 30. How much did Fe earn in three days?",
+            "options": ["Php 1,200", "Php 1,050", "Php 1,500", "Php 1,000"],
+            "answer": "Php 1,050"
+          },
+          {
+            "question": "A delivery service makes 16,800 deliveries every month. If each driver is responsible for 280 deliveries per month, how many drivers are needed to make all the deliveries?",
+            "options": ["50 drivers", "55 drivers", "60 drivers", "65 drivers"],
+            "answer": "60 drivers"
+          },
+          {
+            "question": "During the Citywide Sports Competition, Liza received the following scores in her events: +6, -4, +5, +10, and -2. What was her average score?",
+            "options": ["4", "3", "5", "6"],
+            "answer": "3"
+          },
+          {
+            "question": "A shipping company delivers 160,000 packages per year. If the company delivers 13,500 packages every month, how many packages are delivered each day?",
+            "options": [
+              "400 packages",
+              "425 packages",
+              "450 packages",
+              "475 packages"
+            ],
+            "answer": "450 packages"
+          },
+          {
+            "question": "In a certain barangay, there are 3,000 food packs to be distributed to the victims of the earthquake. If there are 600 households in the barangay, how many food packs will each household receive?",
+            "options": [
+              "5 food packs",
+              "6 food packs",
+              "7 food packs",
+              "8 food packs"
+            ],
+            "answer": "5 food packs"
+          },
+          {
+            "question": "A factory produces 64,800 units of a product every month. If the factory operates 22 days each month, how many units does the factory produce per day?",
+            "options": [
+              "2,900 units",
+              "2,945 units",
+              "3,000 units",
+              "3,050 units"
+            ],
+            "answer": "2,945 units"
+          },
+          {
+            "question": "Alex just received his grades for the first semester in five subjects. His grades are as follows: 90 in Math, 91 in English, 88 in Science, 94 in Filipino, and 87 in MAPEH. What is Alex's average grade for the semester?",
+            "options": ["95", "80", "85", "90"],
+            "answer": "90"
           },
           {
             "question": "A school enrolls 12,000 students. If the school wants to divide the students into 50 classrooms equally, how many students will be in each classroom?",
