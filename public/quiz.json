@@ -477,7 +477,12 @@
           },
           {
             "question": "A warehouse starts with 5,000 items. It ships out 2,750 items and receives shipments of 1,200 items. How many items are left?",
-            "options": ["4,450 items", "3,450 items", "6,450 items", "2,450items"],
+            "options": [
+              "4,450 items",
+              "3,450 items",
+              "6,450 items",
+              "2,450items"
+            ],
             "answer": "3,450 items"
           },
           {
@@ -562,8 +567,8 @@
           },
           {
             "question": "127 - 12 = ___",
-            "options": ["112", "117", "115", "114"],
-            "answer": "115"
+            "options": ["112", "117", "115", "-114"],
+            "answer": "112"
           },
           {
             "question": "Find the difference of 347 - 164.",
@@ -582,7 +587,7 @@
           },
           {
             "question": "Complete the following term: -60 - 54 = ___",
-            "options": ["-114", "141", "-144", "114"],
+            "options": ["-114", "141", "0", "114"],
             "answer": "-114"
           },
           {
@@ -1537,12 +1542,7 @@
           },
           {
             "question": "A team loses 12 points per game for 22 games. What is the total score?",
-            "options": [
-              "260 points",
-              "264 points",
-              "270 points",
-              "280 points"
-            ],
+            "options": ["260 points", "264 points", "270 points", "280 points"],
             "answer": "264 points"
           },
           {
@@ -1826,7 +1826,7 @@
             "answer": "-2"
           },
           {
-            "question": "Calculate the result: 216 ÷ (-9) ÷6÷ (-4)",
+            "question": "Calculate the result: 216÷ (-9) ÷6÷ (-4)",
             "options": ["1", "-1", "6", "-6"],
             "answer": "1"
           },
@@ -1892,7 +1892,7 @@
           },
           {
             "question": "Solve (-216) ÷ (-6) ÷ (-3) ÷2",
-            "options": ["6", "-6", "-12", "12"],
+            "options": ["6", "-6", "-6", "12"],
             "answer": "-6"
           }
         ]
@@ -1981,14 +1981,14 @@
             "answer": "1,800 shelves"
           },
           {
-            "question": "A chocolate factory produces 24,000 chocolate bars in a day. If the factory operates for 20 hours, how many chocolate bars does it produce per hour?",
+            "question": "A chocolate factory produces 1,200 chocolate bars every hour. If the factory operates 20 hours a day, how many chocolate bars does the factory produce in a day?",
             "options": [
-              "1,000 chocolate bars",
-              "2,000 chocolate bars",
-              "1,200 chocolate bars",
-              "2,200 chocolate bars"
+              "20,000 chocolate bars",
+              "22,000 chocolate bars",
+              "24,000 chocolate bars",
+              "25,000 chocolate bars"
             ],
-            "answer": "1,200 chocolate bars"
+            "answer": "24,000 chocolate bars"
           },
           {
             "question": "A farmer harvested 24,000 kilograms of rice. If he wants to pack the rice into 150 bags equally, how many kilograms of rice will each bag contain?",
@@ -2011,14 +2011,14 @@
             "answer": "80 workers"
           },
           {
-            "question": "A university enrolls 15,600 students each year. If the university divides students into 40 classes of equal size, how many students are in each class?",
+            "question": "A university enrolls 15,600 students each year. If the university divides students into 42 classes of equal size, how many students are in each class?",
             "options": [
-              "375 students",
-              "390 students",
+              "360 students",
+              "371 students",
               "380 students",
               "385 students"
             ],
-            "answer": "390 students"
+            "answer": "371 students"
           },
           {
             "question": "A manufacturer produces 84,000 units of a product per month. If the company works 28 days per month and each worker produces 60 units per day, how many workers are required to produce all the units in one month?",
@@ -2051,9 +2051,9 @@
             "answer": "4 seats"
           },
           {
-            "question": "A construction company builds 8,400 houses every year. If the company works 200 days per year, how many houses does the company build each day?",
-            "options": ["40 houses", "42 houses", "44 houses", "46 houses"],
-            "answer": "42 houses"
+            "question": "A construction company builds 8,400 houses every year. If the company works 260 days per year, how many houses does the company build each day?",
+            "options": ["30 houses", "32 houses", "34 houses", "36 houses"],
+            "answer": "32 houses"
           },
           {
             "question": "Mico's scores during the Mathlympics Da Math Competition are as follows: +5, -8, -3, +13, +20 and -9. What was his average score?",
@@ -2061,14 +2061,14 @@
             "answer": "3"
           },
           {
-            "question": "A submarine has descended 2,160 meters in 18 minute. After 18 minutes. If it descends at a constant rate, how many meters does it descend per minute?",
+            "question": "A submarine descends at a rate of -120 meters per minute. After 18 minutes, how many meters has it descended?",
             "options": [
-              "120 meters per minute",
-              "160 meters per minute",
-              "180 meters per minute",
-              "140 meters per minute"
+              "-2,160 meters",
+              "2,160 meters",
+              "-1,080 meters",
+              "1,080 meters"
             ],
-            "answer": "120 meters per minute"
+            "answer": "-2,160 meters"
           },
           {
             "question": "Fe baked 200 cookies on the first day, 140 on the second day and an additional 150 cookies on the third day. She divided them equally into packs containing 14 cookies per pack and sold each pack for Php 30. How much did Fe earn in three days?",
@@ -2106,14 +2106,14 @@
             "answer": "5 food packs"
           },
           {
-            "question": "A factory produces 64,800 units of a product every month. If the factory operates 20 days each month, how many units does the factory produce per day?",
+            "question": "A factory produces 64,800 units of a product every month. If the factory operates 22 days each month, how many units does the factory produce per day?",
             "options": [
               "2,900 units",
               "2,945 units",
               "3,000 units",
-              "3,240 units"
+              "3,050 units"
             ],
-            "answer": "3,240 units"
+            "answer": "2,945 units"
           },
           {
             "question": "Alex just received his grades for the first semester in five subjects. His grades are as follows: 90 in Math, 91 in English, 88 in Science, 94 in Filipino, and 87 in MAPEH. What is Alex's average grade for the semester?",
