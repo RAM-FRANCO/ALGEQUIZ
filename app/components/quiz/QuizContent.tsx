@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 type Question = {
   question: string;
@@ -44,15 +44,15 @@ export function QuizContent({
               const getBackgroundColor = (index: number) => {
                 switch (index) {
                   case 0:
-                    return "bg-primary";
+                    return 'bg-primary';
                   case 1:
-                    return "bg-primary_1";
+                    return 'bg-primary_1';
                   case 2:
-                    return "bg-primary_2";
+                    return 'bg-primary_2';
                   case 3:
-                    return "bg-primary_3";
+                    return 'bg-primary_3';
                   default:
-                    return "bg-primary";
+                    return 'bg-primary';
                 }
               };
 
@@ -60,18 +60,18 @@ export function QuizContent({
                 <button
                   key={index}
                   onClick={() => handleAnswer(option)}
-                  className={`w-full p-4 text-left border rounded-lg mb-4 hover:brightness-95 transition-all
+                  className={`w-full p-4 text-center border rounded-lg mb-4 hover:brightness-95 transition-all
                         ${
                           showCorrectAnswer &&
                           option === questions[currentQuestion].answer
-                            ? "bg-primary_yellow"
+                            ? 'bg-primary_yellow'
                             : getBackgroundColor(index)
                         }
-                        ${showCorrectAnswer ? "cursor-not-allowed" : ""}
+                        ${showCorrectAnswer ? 'cursor-not-allowed' : ''}
                         ${
                           selectedAnswer === option
-                            ? "border-2 border-secondary"
-                            : "border border-transparent"
+                            ? 'border-2 border-secondary'
+                            : 'border border-transparent'
                         }
                     `}
                   disabled={isSubmitting || showCorrectAnswer}
